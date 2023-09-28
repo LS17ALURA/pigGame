@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpf0akru0lq3l"]
+
+[ext_resource type="Script" path="res://cenas/teleporte_2.gd" id="1_4wf8f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vv07w"]
+size = Vector2(106, 64)
+
+[node name="teleporte2" type="Area2D"]
+script = ExtResource("1_4wf8f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(91, 32)
+shape = SubResource("RectangleShape2D_vv07w")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

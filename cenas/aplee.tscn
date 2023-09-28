@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bf0uk1og68sje"]
+
+[ext_resource type="Texture2D" uid="uid://dnmkigs2qpw3w" path="res://imgs/itens/maca.png" id="1_deeio"]
+[ext_resource type="Script" path="res://scripts/aplee.gd" id="1_vogtw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1wvci"]
+radius = 8.0
+
+[node name="aplee" type="Area2D"]
+position = Vector2(5, 4)
+script = ExtResource("1_vogtw")
+metadata/_edit_group_ = true
+
+[node name="Maca" type="Sprite2D" parent="."]
+position = Vector2(18.5, 18.5)
+scale = Vector2(0.8125, 0.8125)
+texture = ExtResource("1_deeio")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(19, 18)
+shape = SubResource("CircleShape2D_1wvci")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

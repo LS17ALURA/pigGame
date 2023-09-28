@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://8ovkqvhdl1sj"]
+
+[ext_resource type="Script" path="res://cenas/aguacair.gd" id="1_nhqws"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_al6rb"]
+size = Vector2(326.5, 132.75)
+
+[node name="aguacair" type="Area2D"]
+script = ExtResource("1_nhqws")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(270.75, 144.625)
+shape = SubResource("RectangleShape2D_al6rb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
