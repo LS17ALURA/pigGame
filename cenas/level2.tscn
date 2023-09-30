@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://dcdm1citim1tq"]
+[gd_scene load_steps=37 format=3 uid="uid://dcdm1citim1tq"]
 
 [ext_resource type="Texture2D" uid="uid://clmc2junmxk8n" path="res://Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png" id="1_wq3ys"]
 [ext_resource type="Texture2D" uid="uid://dounketeisq5b" path="res://Imagens/Fundo/d2d5f8e7fa9a7fe44c1dee164e8de01e--gra-pixel-art.jpg" id="1_yd0ts"]
@@ -19,6 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://bf0uk1og68sje" path="res://cenas/aplee.tscn" id="17_85yms"]
 [ext_resource type="PackedScene" uid="uid://bpf0akru0lq3l" path="res://cenas/teleporte_2.tscn" id="18_rp5sa"]
 [ext_resource type="PackedScene" uid="uid://8ovkqvhdl1sj" path="res://cenas/aguacair.tscn" id="19_wjtrt"]
+[ext_resource type="Script" path="res://scripts/LabelMacas.gd" id="20_kuwnm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v020r"]
 texture = ExtResource("1_wq3ys")
@@ -2189,3 +2190,16 @@ position = Vector2(2348, 479)
 
 [node name="aguacair" parent="." instance=ExtResource("19_wjtrt")]
 position = Vector2(-48, 520)
+
+[node name="HUD" type="CanvasLayer" parent="." groups=["hud"]]
+
+[node name="LabelMacas" type="Label" parent="HUD"]
+anchors_preset = -1
+anchor_right = 0.025
+anchor_bottom = 0.089
+offset_left = 80.0
+offset_top = 576.0
+offset_right = 106.0
+offset_bottom = 537.92
+text = "0"
+script = ExtResource("20_kuwnm")

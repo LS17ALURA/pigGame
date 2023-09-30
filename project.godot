@@ -18,7 +18,6 @@ config/icon="res://icon.svg"
 [autoload]
 
 Itens="*res://scriptglobal/itens.gd"
-LabelMacas="*res://scripts/LabelMacas.gd"
 
 [display]
 

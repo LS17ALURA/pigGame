@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=3 uid="uid://cdlvvhm8c53tu"]
+[gd_scene load_steps=39 format=3 uid="uid://cdlvvhm8c53tu"]
 
 [ext_resource type="Texture2D" uid="uid://chf6vx1g5drnh" path="res://assets/background.png" id="1_7qsn6"]
 [ext_resource type="Texture2D" uid="uid://s41iutpp6mow" path="res://assets/mountain.jpg" id="2_637ga"]
@@ -20,6 +20,7 @@
 [ext_resource type="PackedScene" uid="uid://l1ns8lrpmc7o" path="res://cenas/player.tscn" id="17_64vwn"]
 [ext_resource type="PackedScene" uid="uid://bf0uk1og68sje" path="res://cenas/aplee.tscn" id="19_6m40n"]
 [ext_resource type="PackedScene" uid="uid://cwo38e0b3rl3t" path="res://cenas/teleporte.tscn" id="20_8rldn"]
+[ext_resource type="Script" path="res://scripts/LabelMacas.gd" id="21_ixmp5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2xarv"]
 texture = ExtResource("2_637ga")
@@ -16261,5 +16262,18 @@ position = Vector2(384, 176)
 
 [node name="teleporte" parent="." instance=ExtResource("20_8rldn")]
 position = Vector2(-62, 65)
+
+[node name="HUD" type="CanvasLayer" parent="." groups=["hud"]]
+
+[node name="LabelMacas" type="Label" parent="HUD"]
+anchors_preset = -1
+anchor_right = 0.025
+anchor_bottom = 0.089
+offset_left = 80.0
+offset_top = 576.0
+offset_right = 106.0
+offset_bottom = 537.92
+text = "0"
+script = ExtResource("21_ixmp5")
 
 [connection signal="body_shape_entered" from="teleporte" to="player" method="_on_teleporte_body_shape_entered"]

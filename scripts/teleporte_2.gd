@@ -14,3 +14,4 @@ func _process(delta):
 func _on_body_entered(body):
 	print ("Player Teleportado!")
 	get_tree().change_scene_to_file("res://cenas/level3.tscn")
+	$"/root/Itens".macas=0
