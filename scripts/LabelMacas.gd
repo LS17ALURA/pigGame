@@ -8,10 +8,10 @@ func _ready():
 	self.global_position . x = 100
 	self.global_position.y = 50
 	self.add_theme_font_override("font", font)
-	self.add_theme_font_size_override("font_size", 48)
+	self.add_theme_font_size_override("font_size", 38)
 	self.add_theme_color_override("font_color", "green")
 	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	self.text=str($"/root/Itens".macas)
+	self.text="Maçãs: "+str($"/root/Itens".macas)
