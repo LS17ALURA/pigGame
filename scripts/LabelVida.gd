@@ -6,12 +6,12 @@ var font = load("res://Assets/fonts/m6x11.ttf")
 
 func _ready():
 	self.global_position.x = 100
-	self.global_position.y = 50
+	self.global_position.y = 120
 	self.add_theme_font_override("font", font)
 	self.add_theme_font_size_override("font_size", 38)
-	self.add_theme_color_override("font_color", "green")
+	self.add_theme_color_override("font_color", "purple")
 	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	self.text="Maçãs: "+str($"/root/Itens".macas)
+	self.text="Vida: "+str($"/root/Itens".vida)

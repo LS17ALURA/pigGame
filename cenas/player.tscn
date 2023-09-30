@@ -1,7 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://l1ns8lrpmc7o"]
+[gd_scene load_steps=10 format=3 uid="uid://l1ns8lrpmc7o"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_c3skf"]
 [ext_resource type="Texture2D" uid="uid://cq1h5po063red" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png" id="2_gojui"]
+[ext_resource type="Texture2D" uid="uid://vvk74vgsgkg2" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png" id="3_hifm3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_00sg4"]
+size = Vector2(15, 19)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w5ess"]
 atlas = ExtResource("2_gojui")
@@ -10,6 +14,14 @@ region = Rect2(346, 0, 346, 361)
 [sub_resource type="AtlasTexture" id="AtlasTexture_dje3j"]
 atlas = ExtResource("2_gojui")
 region = Rect2(0, 0, 346, 361)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fat7h"]
+atlas = ExtResource("3_hifm3")
+region = Rect2(0, 0, 346, 361)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1draf"]
+atlas = ExtResource("3_hifm3")
+region = Rect2(346, 0, 346, 361)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_bwa68"]
 animations = [{
@@ -21,24 +33,26 @@ animations = [{
 "texture": SubResource("AtlasTexture_dje3j")
 }],
 "loop": true,
-"name": &"default",
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fat7h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1draf")
+}],
+"loop": true,
+"name": &"esquerda",
 "speed": 5.0
 }]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_00sg4"]
-size = Vector2(15, 19)
 
 [node name="player" type="CharacterBody2D"]
 position = Vector2(592, 352)
 collision_mask = 2
 script = ExtResource("1_c3skf")
 metadata/_edit_group_ = true
-
-[node name="animacoes" type="AnimatedSprite2D" parent="."]
-position = Vector2(9, -1.99999)
-scale = Vector2(0.0693642, 0.066482)
-sprite_frames = SubResource("SpriteFrames_bwa68")
-autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(8.5, -1.5)
@@ -51,3 +65,12 @@ limit_top = 0
 limit_right = 2496
 limit_bottom = 720
 editor_draw_limits = true
+
+[node name="animacoes" type="AnimatedSprite2D" parent="."]
+position = Vector2(9, -2)
+scale = Vector2(0.0693642, 0.066482)
+sprite_frames = SubResource("SpriteFrames_bwa68")
+animation = &"esquerda"
+autoplay = "Idle"
+
+[node name="animator" type="AnimationPlayer" parent="."]
