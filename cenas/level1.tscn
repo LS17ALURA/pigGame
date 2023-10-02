@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=3 uid="uid://u72o3wir1kwp"]
+[gd_scene load_steps=30 format=3 uid="uid://u72o3wir1kwp"]
 
 [ext_resource type="Texture2D" uid="uid://txxe5srv56wr" path="res://imgs/all_original_edited_tiles-1.png-8.png" id="1_ptsig"]
 [ext_resource type="Texture2D" uid="uid://liadcw0otvfx" path="res://imgs/green-wood.png" id="2_ixlvt"]
@@ -15,6 +15,9 @@
 [ext_resource type="Script" path="res://scripts/LabelMacas.gd" id="13_es7h1"]
 [ext_resource type="Script" path="res://scripts/LabelVida.gd" id="14_cgh5t"]
 [ext_resource type="PackedScene" uid="uid://b1mugikftjbdt" path="res://cenas/life.tscn" id="14_ryjh6"]
+[ext_resource type="Shader" path="res://shaders/transition.gdshader" id="16_qytuo"]
+[ext_resource type="Script" path="res://scripts/transition.gd" id="16_v6r0c"]
+[ext_resource type="Script" path="res://scripts/ColorRect.gd" id="17_35h78"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uioxx"]
 texture = ExtResource("1_ptsig")
@@ -24560,6 +24563,13 @@ sources/6 = SubResource("TileSetAtlasSource_ohvv0")
 sources/7 = SubResource("TileSetAtlasSource_nj781")
 sources/8 = SubResource("TileSetAtlasSource_nc8es")
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5fymu"]
+shader = ExtResource("16_qytuo")
+shader_parameter/lines = 10.0
+shader_parameter/threshold = 0.0
+shader_parameter/line_color_a = Color(0.992157, 0.501961, 0.286275, 1)
+shader_parameter/line_color_b = Color(0.576471, 0.776471, 0.482353, 1)
+
 [node name="level1" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -24589,7 +24599,7 @@ layer_3/y_sort_origin = 0
 layer_3/z_index = 0
 layer_3/tile_data = PackedInt32Array()
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("10_tcc5x")]
+[node name="player" parent="." instance=ExtResource("10_tcc5x")]
 position = Vector2(16, 656)
 
 [node name="Node2D" type="Node2D" parent="."]
@@ -24717,3 +24727,16 @@ script = ExtResource("14_cgh5t")
 
 [node name="life" parent="." instance=ExtResource("14_ryjh6")]
 position = Vector2(1264, 464)
+
+[node name="transition" type="CanvasLayer" parent="."]
+script = ExtResource("16_v6r0c")
+
+[node name="ColorRect" type="ColorRect" parent="transition"]
+material = SubResource("ShaderMaterial_5fymu")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("17_35h78")

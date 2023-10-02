@@ -10,13 +10,13 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _physics_process(delta):
 	if(self.global_position.x <= 2):
-		self.global_position.x+= 5
+		self.global_position.x+= 10
 		
-	if(self.global_position.x >= 2492):
-		self.global_position.x-= 5
+	if(self.global_position.x >= 2487):
+		self.global_position.x-= 10
 		
 	if(self.global_position.y <= 2):
-		self.global_position.y+= 5
+		self.global_position.y+= 10
 		
 	# Add the gravity.
 	if not is_on_floor():
