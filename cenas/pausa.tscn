@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://dlkd2ayxcqcpr"]
+
+[ext_resource type="Script" path="res://scripts/pausa.gd" id="1_jr7n4"]
+[ext_resource type="Theme" uid="uid://li018kyggal2" path="res://temas_botao/pausa.tres" id="1_yuylv"]
+
+[sub_resource type="InputEventAction" id="InputEventAction_jfct0"]
+action = &"ui_cancel"
+
+[sub_resource type="Shortcut" id="Shortcut_lws3n"]
+events = [SubResource("InputEventAction_jfct0")]
+
+[node name="pausa" type="CanvasLayer"]
+process_mode = 3
+visible = false
+script = ExtResource("1_jr7n4")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.235294)
+
+[node name="menu" type="VBoxContainer" parent="."]
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -38.0
+offset_bottom = 38.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+alignment = 1
+
+[node name="pausar_btn" type="Button" parent="menu"]
+layout_mode = 2
+theme = ExtResource("1_yuylv")
+shortcut = SubResource("Shortcut_lws3n")
+text = "RETOMAR"
+
+[node name="sair_btn" type="Button" parent="menu"]
+layout_mode = 2
+theme = ExtResource("1_yuylv")
+text = "SAIR"
+
+[connection signal="pressed" from="menu/pausar_btn" to="." method="_on_pausar_btn_pressed"]
+[connection signal="pressed" from="menu/sair_btn" to="." method="_on_sair_btn_pressed"]

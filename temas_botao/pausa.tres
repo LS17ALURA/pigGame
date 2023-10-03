@@ -1,0 +1,20 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://li018kyggal2"]
+
+[ext_resource type="FontFile" uid="uid://dk38saqf4tlr7" path="res://assets/fonts/m6x11.ttf" id="1_846b3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_is1a7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d02sj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wc6lp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sif8w"]
+
+[resource]
+default_font_size = 40
+Button/colors/font_color = Color(0.68, 0, 0.0906666, 0.85098)
+Button/fonts/font = ExtResource("1_846b3")
+Button/styles/focus = SubResource("StyleBoxEmpty_is1a7")
+Button/styles/hover = SubResource("StyleBoxEmpty_d02sj")
+Button/styles/normal = SubResource("StyleBoxEmpty_wc6lp")
+Button/styles/pressed = SubResource("StyleBoxEmpty_sif8w")
