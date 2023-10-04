@@ -1,0 +1,102 @@
+[gd_scene load_steps=6 format=3 uid="uid://dyyuqw4kdhjai"]
+
+[ext_resource type="Script" path="res://scripts/game_over_screen.gd" id="1_4pqs6"]
+[ext_resource type="FontFile" uid="uid://dk38saqf4tlr7" path="res://assets/fonts/m6x11.ttf" id="1_tg3kd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uoh2u"]
+bg_color = Color(0.894118, 0.254902, 0.294118, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="LabelSettings" id="LabelSettings_l17n4"]
+font = ExtResource("1_tg3kd")
+font_size = 72
+
+[sub_resource type="LabelSettings" id="LabelSettings_78mbr"]
+font = ExtResource("1_tg3kd")
+font_size = 50
+
+[node name="GameOverScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4pqs6")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.368627, 0, 0.141176, 1)
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -352.0
+offset_top = -184.0
+offset_right = 352.0
+offset_bottom = 264.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_uoh2u")
+
+[node name="GameOver" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 64.0
+offset_right = 502.0
+offset_bottom = 130.0
+text = "Game Over
+"
+label_settings = SubResource("LabelSettings_l17n4")
+
+[node name="Apples" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 176.0
+offset_right = 567.0
+offset_bottom = 242.0
+text = "Apples: 9999
+"
+label_settings = SubResource("LabelSettings_78mbr")
+
+[node name="Lives" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 240.0
+offset_right = 567.0
+offset_bottom = 306.0
+text = "Lives: 9999
+"
+label_settings = SubResource("LabelSettings_78mbr")
+
+[node name="RestartButton" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = 96.0
+offset_right = 192.0
+offset_bottom = 176.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_tg3kd")
+theme_override_font_sizes/font_size = 80
+text = "RETRY
+"
+
+[connection signal="pressed" from="Panel/RestartButton" to="." method="_on_restart_button_pressed"]
