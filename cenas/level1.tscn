@@ -24706,6 +24706,7 @@ position = Vector2(608, 640)
 
 [node name="teleporte" parent="." instance=ExtResource("12_rjwvh")]
 position = Vector2(2301, 544)
+next_level = "res://cenas/level2.tscn"
 
 [node name="HUD" type="CanvasLayer" parent="." groups=["hud"]]
 

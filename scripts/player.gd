@@ -7,11 +7,12 @@ const JUMP_VELOCITY = -400.0
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-var current_trail : Class
+#var current_trail : Class
 
 func show_trail () -> void:
-	current_trail = Class.create_trail()
-	add_child(current_trail)
+	#current_trail = Class.create_trail()
+	#add_child(current_trail)
+	pass
 	
 func _physics_process(delta):
 	if(self.global_position.x <= 2):

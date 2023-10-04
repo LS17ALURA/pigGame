@@ -1,5 +1,4 @@
 extends Line2D
-class_name Class
 const MAX_POINTS := 3000
 @onready var trail := Curve2D.new()
 
