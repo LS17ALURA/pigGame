@@ -38,7 +38,6 @@ func _physics_process(delta):
 	#print(direction)
 	if direction:
 		velocity.x = direction * SPEED
-		show_trail()
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 

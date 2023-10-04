@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://48axla5ej2ln"]
+
+[ext_resource type="Script" path="res://scripts/trial_2d.gd" id="1_b2bnk"]
+
+[sub_resource type="Curve" id="Curve_524gf"]
+_data = [Vector2(0, 0.0421052), 0.0, 0.0, 0, 0, Vector2(0.940541, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_lmift"]
+colors = PackedColorArray(1, 0.576471, 0, 1, 0.960784, 0, 0, 1)
+
+[node name="trial_2D" type="Line2D"]
+show_behind_parent = true
+top_level = true
+width_curve = SubResource("Curve_524gf")
+default_color = Color(0.988235, 0.431373, 0, 1)
+gradient = SubResource("Gradient_lmift")
+begin_cap_mode = 2
+end_cap_mode = 2
+script = ExtResource("1_b2bnk")
