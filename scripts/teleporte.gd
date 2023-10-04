@@ -6,7 +6,6 @@ extends Area2D
 func _on_body_entered(body):
 	if(body.name=="player" and next_level!=""):
 		transition.change_scene(next_level) # parei aqui
-		#get_tree().change_scene_to_file("res://cenas/level2.tscn")
 		$"/root/Itens".macas=0
 	else: 
 		("No scene loaded")

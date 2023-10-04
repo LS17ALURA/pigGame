@@ -1,17 +1,12 @@
 extends Area2D
 
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
+@onready var transition = $"../transition"
+@export var next_level: String=""
 
 func _on_body_entered(body):
-	print ("Player Teleportado!")
-	get_tree().change_scene_to_file("res://cenas/level3.tscn")
-	$"/root/Itens".macas=0
+	if(body.name=="player" and next_level!=""):
+		transition.change_scene(next_level) # parei aqui
+		$"/root/Itens".macas=0
+	else: 
+		("No scene loaded")
+
