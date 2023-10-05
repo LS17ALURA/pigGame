@@ -24,6 +24,17 @@ func _physics_process(delta):
 	if(self.global_position.y <= 2):
 		self.global_position.y+= 10
 		
+	if Input.is_action_just_pressed("ui_left"):
+		if $"/root/Itens".esquerda == 1:
+			$"/root/Itens".esquerda = 0
+			$"/root/Itens".direita = 1
+			self.scale.x *= -1
+	if Input.is_action_just_pressed("ui_right"):
+		if $"/root/Itens".direita == 1:
+			$"/root/Itens".direita = 0
+			$"/root/Itens".esquerda = 1
+			self.scale.x *= -1
+	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y += gravity * delta
