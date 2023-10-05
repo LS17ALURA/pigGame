@@ -19,11 +19,11 @@
 [ext_resource type="Texture2D" uid="uid://c4kbwym6bxyfp" path="res://assets/stone.jpg" id="16_vv5eh"]
 [ext_resource type="PackedScene" uid="uid://l1ns8lrpmc7o" path="res://cenas/player.tscn" id="17_64vwn"]
 [ext_resource type="PackedScene" uid="uid://bf0uk1og68sje" path="res://cenas/aplee.tscn" id="19_6m40n"]
-[ext_resource type="PackedScene" uid="uid://cwo38e0b3rl3t" path="res://cenas/teleporte.tscn" id="20_8rldn"]
 [ext_resource type="Script" path="res://scripts/LabelMacas.gd" id="21_ixmp5"]
 [ext_resource type="Script" path="res://scripts/LabelVida.gd" id="22_sn526"]
 [ext_resource type="PackedScene" uid="uid://b1mugikftjbdt" path="res://cenas/life.tscn" id="23_8huq8"]
 [ext_resource type="PackedScene" uid="uid://8ovkqvhdl1sj" path="res://cenas/aguacair.tscn" id="24_wq8nr"]
+[ext_resource type="PackedScene" uid="uid://y78lo2lka3h" path="res://cenas/teleporte_3.tscn" id="25_1n8mt"]
 [ext_resource type="PackedScene" uid="uid://dlkd2ayxcqcpr" path="res://cenas/pausa.tscn" id="25_ivndq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2xarv"]
@@ -16109,7 +16109,7 @@ layer_3/tile_data = PackedInt32Array(2228235, 655362, 2, 2293771, 655362, 3, 222
 
 [node name="player" parent="." instance=ExtResource("17_64vwn")]
 visibility_layer = 2
-position = Vector2(16, 224)
+position = Vector2(128, 176)
 
 [node name="MACAS" type="Node2D" parent="."]
 position = Vector2(0.00012207, 0)
@@ -16267,9 +16267,6 @@ position = Vector2(352, 176)
 [node name="aplee4" parent="MACAS" instance=ExtResource("19_6m40n")]
 position = Vector2(384, 176)
 
-[node name="teleporte" parent="." instance=ExtResource("20_8rldn")]
-position = Vector2(-62, 65)
-
 [node name="HUD" type="CanvasLayer" parent="." groups=["hud"]]
 
 [node name="LabelMacas" type="Label" parent="HUD"]
@@ -16306,4 +16303,5 @@ position = Vector2(1936, 544)
 
 [node name="pausa" parent="." instance=ExtResource("25_ivndq")]
 
-[connection signal="body_shape_entered" from="teleporte" to="player" method="_on_teleporte_body_shape_entered"]
+[node name="teleporte3" parent="." instance=ExtResource("25_1n8mt")]
+position = Vector2(-16, 144)
