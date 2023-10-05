@@ -8,3 +8,7 @@ res://cenas/teleporte.tscn
 res://cenas/teleporte_2.tscn
 res://cenas/aguacair.tscn
 res://cenas/life.tscn
+res://cenas/game_over_screen.tscn
+res://cenas/trial_2d.tscn
+res://cenas/teleporte_3.tscn
+res://cenas/pausa.tscn
