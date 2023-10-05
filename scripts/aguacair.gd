@@ -8,3 +8,4 @@ func _on_body_entered(body):
 		# Reposicione o jogador para a posição inicial.
 		var player = body
 		player.global_position = initial_position
+		$"/root/Itens".vida-=25

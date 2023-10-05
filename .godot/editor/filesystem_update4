@@ -8,7 +8,13 @@ res://cenas/teleporte.tscn
 res://cenas/teleporte_2.tscn
 res://cenas/aguacair.tscn
 res://cenas/life.tscn
+<<<<<<< HEAD
 res://cenas/game_over_screen.tscn
 res://cenas/trial_2d.tscn
 res://cenas/teleporte_3.tscn
 res://cenas/pausa.tscn
+=======
+res://scripts/aguacair.gd
+res://scriptglobal/itens.gd
+res://scripts/player.gd
+>>>>>>> bfbe2362c5229ea5eead5c6dd6e77052898e8d61
