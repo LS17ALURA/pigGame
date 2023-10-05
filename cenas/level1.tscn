@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://u72o3wir1kwp"]
+[gd_scene load_steps=32 format=3 uid="uid://u72o3wir1kwp"]
 
 [ext_resource type="Texture2D" uid="uid://txxe5srv56wr" path="res://imgs/all_original_edited_tiles-1.png-8.png" id="1_ptsig"]
 [ext_resource type="Texture2D" uid="uid://liadcw0otvfx" path="res://imgs/green-wood.png" id="2_ixlvt"]
@@ -19,6 +19,7 @@
 [ext_resource type="Script" path="res://scripts/transition.gd" id="16_v6r0c"]
 [ext_resource type="Script" path="res://scripts/ColorRect.gd" id="17_35h78"]
 [ext_resource type="PackedScene" uid="uid://dlkd2ayxcqcpr" path="res://cenas/pausa.tscn" id="19_swto7"]
+[ext_resource type="PackedScene" uid="uid://8ovkqvhdl1sj" path="res://cenas/aguacair.tscn" id="20_xosk7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uioxx"]
 texture = ExtResource("1_ptsig")
@@ -24744,3 +24745,9 @@ color = Color(0, 0, 0, 1)
 script = ExtResource("17_35h78")
 
 [node name="pausa" parent="." instance=ExtResource("19_swto7")]
+
+[node name="aguacair" parent="." instance=ExtResource("20_xosk7")]
+position = Vector2(144, 608)
+
+[node name="aguacair2" parent="." instance=ExtResource("20_xosk7")]
+position = Vector2(1856, 608)

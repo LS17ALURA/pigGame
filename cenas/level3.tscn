@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://cdlvvhm8c53tu"]
+[gd_scene load_steps=43 format=3 uid="uid://cdlvvhm8c53tu"]
 
 [ext_resource type="Texture2D" uid="uid://chf6vx1g5drnh" path="res://assets/background.png" id="1_7qsn6"]
 [ext_resource type="Texture2D" uid="uid://s41iutpp6mow" path="res://assets/mountain.jpg" id="2_637ga"]
@@ -23,6 +23,8 @@
 [ext_resource type="Script" path="res://scripts/LabelMacas.gd" id="21_ixmp5"]
 [ext_resource type="Script" path="res://scripts/LabelVida.gd" id="22_sn526"]
 [ext_resource type="PackedScene" uid="uid://b1mugikftjbdt" path="res://cenas/life.tscn" id="23_8huq8"]
+[ext_resource type="PackedScene" uid="uid://8ovkqvhdl1sj" path="res://cenas/aguacair.tscn" id="24_wq8nr"]
+[ext_resource type="PackedScene" uid="uid://dlkd2ayxcqcpr" path="res://cenas/pausa.tscn" id="25_ivndq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2xarv"]
 texture = ExtResource("2_637ga")
@@ -684,9 +686,11 @@ texture = ExtResource("3_58yg0")
 5:1/0 = 0
 5:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 5:1/0/physics_layer_0/angular_velocity = 0.0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 6:1/0 = 0
 6:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 6:1/0/physics_layer_0/angular_velocity = 0.0
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 8:1/0 = 0
 8:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 8:1/0/physics_layer_0/angular_velocity = 0.0
@@ -926,9 +930,11 @@ texture = ExtResource("3_58yg0")
 1:5/0 = 0
 1:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:5/0/physics_layer_0/angular_velocity = 0.0
+1:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 1.125, -3.625, 8, 0.25, -8, 8)
 2:5/0 = 0
 2:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 2:5/0/physics_layer_0/angular_velocity = 0.0
+2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -0.375, -0.375, 3.625, 8, 8, -8, 8)
 3:5/0 = 0
 3:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 3:5/0/physics_layer_0/angular_velocity = 0.0
@@ -959,9 +965,11 @@ texture = ExtResource("3_58yg0")
 12:5/0 = 0
 12:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 12:5/0/physics_layer_0/angular_velocity = 0.0
+12:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 13:5/0 = 0
 13:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 13:5/0/physics_layer_0/angular_velocity = 0.0
+13:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -0.625, 0.75, 3.125, 8, 8, -8, 8)
 14:5/0 = 0
 14:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 14:5/0/physics_layer_0/angular_velocity = 0.0
@@ -1036,6 +1044,7 @@ texture = ExtResource("3_58yg0")
 14:6/0 = 0
 14:6/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 14:6/0/physics_layer_0/angular_velocity = 0.0
+14:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 0.25, -0.5, 8, 8, -8, 8)
 15:6/0 = 0
 15:6/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:6/0/physics_layer_0/angular_velocity = 0.0
@@ -16282,5 +16291,19 @@ script = ExtResource("22_sn526")
 
 [node name="life" parent="." instance=ExtResource("23_8huq8")]
 position = Vector2(1872, 480)
+
+[node name="aguacair" parent="." instance=ExtResource("24_wq8nr")]
+position = Vector2(1024, 544)
+
+[node name="aguacair2" parent="." instance=ExtResource("24_wq8nr")]
+position = Vector2(1456, 544)
+
+[node name="aguacair3" parent="." instance=ExtResource("24_wq8nr")]
+position = Vector2(1792, 544)
+
+[node name="aguacair4" parent="." instance=ExtResource("24_wq8nr")]
+position = Vector2(1936, 544)
+
+[node name="pausa" parent="." instance=ExtResource("25_ivndq")]
 
 [connection signal="body_shape_entered" from="teleporte" to="player" method="_on_teleporte_body_shape_entered"]

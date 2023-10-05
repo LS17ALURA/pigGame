@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_c3skf"]
 [ext_resource type="Texture2D" uid="uid://cq1h5po063red" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png" id="2_gojui"]
 [ext_resource type="Texture2D" uid="uid://vvk74vgsgkg2" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png" id="3_hifm3"]
-[ext_resource type="PackedScene" path="res://cenas/trial_2d.tscn" id="4_ccjtc"]
+[ext_resource type="PackedScene" uid="uid://48axla5ej2ln" path="res://cenas/trial_2d.tscn" id="4_ccjtc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_00sg4"]
 size = Vector2(15, 19)

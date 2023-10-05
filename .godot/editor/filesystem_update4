@@ -8,6 +8,3 @@ res://cenas/teleporte.tscn
 res://cenas/teleporte_2.tscn
 res://cenas/aguacair.tscn
 res://cenas/life.tscn
-res://scripts/teleporte.gd
-res://scripts/teleporte_2.gd
-res://scripts/transition.gd

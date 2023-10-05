@@ -1,7 +1,10 @@
 extends Area2D
 
-
+var initial_position = Vector2(10, 450)
 
 func _on_body_entered(body):
-		global_position.y = 32
-		global_position.x = 544
+	if body.name == "player":
+		print("Player Caiu")
+		# Reposicione o jogador para a posição inicial.
+		var player = body
+		player.global_position = initial_position

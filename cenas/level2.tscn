@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://dcdm1citim1tq"]
+[gd_scene load_steps=44 format=3 uid="uid://dcdm1citim1tq"]
 
 [ext_resource type="Texture2D" uid="uid://clmc2junmxk8n" path="res://Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png" id="1_wq3ys"]
 [ext_resource type="Texture2D" uid="uid://dounketeisq5b" path="res://Imagens/Fundo/d2d5f8e7fa9a7fe44c1dee164e8de01e--gra-pixel-art.jpg" id="1_yd0ts"]
@@ -25,6 +25,7 @@
 [ext_resource type="Script" path="res://scripts/transition.gd" id="23_a76fw"]
 [ext_resource type="Shader" path="res://shaders/transition.gdshader" id="24_on6in"]
 [ext_resource type="Script" path="res://scripts/ColorRect.gd" id="25_tqkpb"]
+[ext_resource type="PackedScene" uid="uid://dlkd2ayxcqcpr" path="res://cenas/pausa.tscn" id="26_v2pjg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v020r"]
 texture = ExtResource("1_wq3ys")
@@ -1607,9 +1608,11 @@ texture = ExtResource("1_wq3ys")
 3:1/0 = 0
 3:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 3:1/0/physics_layer_0/angular_velocity = 0.0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 4:1/0 = 0
 4:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:1/0/physics_layer_0/angular_velocity = 0.0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:1/0 = 0
 5:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 5:1/0/physics_layer_0/angular_velocity = 0.0
@@ -2238,3 +2241,11 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 script = ExtResource("25_tqkpb")
+
+[node name="aguacair2" parent="." instance=ExtResource("19_wjtrt")]
+position = Vector2(368, 528)
+
+[node name="aguacair3" parent="." instance=ExtResource("19_wjtrt")]
+position = Vector2(1424, 528)
+
+[node name="pausa" parent="." instance=ExtResource("26_v2pjg")]
