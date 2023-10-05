@@ -39,20 +39,20 @@ hitSound.wav::AudioStreamWAV::1721811400276295529::1696501707::1696501707::1::::
 selectSound.wav::AudioStreamWAV::1858315218889162102::1696501707::1696501707::1::::<><>::
 ::res://assets/fonts/::1696501707
 m6x11.ttf::FontFile::7920988894608443798::1696501707::1696501707::1::::<><>::
-::res://cenas/::1696505379
-aguacair.tscn::PackedScene::2346426916536065277::1696505116::0::1::::<><>::res://scripts/aguacair.gd
-aplee.tscn::PackedScene::2790207931078858294::1696505116::0::1::::<><>::uid://dnmkigs2qpw3w::::res://imgs/itens/maca.png<>res://scripts/aplee.gd
-game_over_screen.tscn::PackedScene::8894583477819002644::1696505116::0::1::::<><>::res://scripts/game_over_screen.gd<>uid://dk38saqf4tlr7::::res://assets/fonts/m6x11.ttf
-level1.tscn::PackedScene::1471502825836660099::1696505116::0::1::::<><>::uid://txxe5srv56wr::::res://imgs/all_original_edited_tiles-1.png-8.png<>uid://liadcw0otvfx::::res://imgs/green-wood.png<>uid://cn7foxmg7jtbb::::res://imgs/tiles-rock-colour1-alpha.png<>uid://bfa0dkchgamsx::::res://imgs/tiles-tech-gold-green-alpha.png<>uid://bwr504wfnnj10::::res://imgs/white-wood.png<>uid://dl26karxtuaf1::::res://imgs/cave_assets.png<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://dnmkigs2qpw3w::::res://imgs/itens/maca.png<>uid://c7kee06in8xgl::::res://imgs/itens/coracao.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://cwo38e0b3rl3t::::res://cenas/teleporte.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://shaders/transition.gdshader<>res://scripts/transition.gd<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn
-level2.tscn::PackedScene::7306608024451873854::1696505116::0::1::::<><>::uid://clmc2junmxk8n::::res://Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png<>uid://dounketeisq5b::::res://Imagens/Fundo/d2d5f8e7fa9a7fe44c1dee164e8de01e--gra-pixel-art.jpg<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://bg7vupy04uokp::::res://Seasonal Tilesets/5 - Misc. universal tiles/House (112 x 96).png<>uid://dsnu1fqvkfnx8::::res://Seasonal Tilesets/3 - Tropics/Background parts/2 - Waters_version_2.png<>uid://brdxatl3oglor::::res://Seasonal Tilesets/5 - Misc. universal tiles/Lava_frames (16 x 32).png<>uid://5og1f7ah77sr::::res://Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png<>uid://cwaawngapkj7q::::res://Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://b7fru12tht5xk::::res://Seasonal Tilesets/5 - Misc. universal tiles/Winter_entities (16 x 16).png<>uid://bpwveoiwswkl2::::res://Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://cp0a6rlrlfrou::::res://Seasonal Tilesets/5 - Misc. universal tiles/Flowers (16 x 16).png<>uid://d3bq8j4k6yan7::::res://Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png<>uid://s24bp2gxtlmk::::res://Tiles/Tiles/download.jpeg<>uid://coxepf0n2l4fe::::res://Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png<>uid://dcvjrltxpf42m::::res://Seasonal Tilesets/2 - Autumn Forest/Background parts/2 - Trees.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://bpf0akru0lq3l::::res://cenas/teleporte_2.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://scripts/transition.gd<>res://shaders/transition.gdshader<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn
-level3.tscn::PackedScene::5007428999819413178::1696505114::0::1::::<><>::uid://chf6vx1g5drnh::::res://assets/background.png<>uid://s41iutpp6mow::::res://assets/mountain.jpg<>uid://hb6jbmvi2q6f::::res://assets/grass tileset.png<>uid://bbl8m5uoxh60f::::res://assets/heart-removebg-preview.png<>uid://bytaeq3wqpyqi::::res://assets/montanha.png<>uid://ctmjm4uyc4e6p::::res://assets/RandomTree.png<>uid://dwe35nl350q31::::res://assets/tree.png<>uid://drshpk7afemud::::res://assets/coracao.png<>uid://dl26karxtuaf1::::res://imgs/cave_assets.png<>uid://3eo8gc5e23j1::::res://assets/farm.png<>uid://cwmecvfky3ytv::::res://assets/maca.png<>uid://bc6ka6klwe7yd::::res://assets/8bit-water-flat.png<>uid://bpgudsjm7f782::::res://assets/8bit-water-currenty.png<>uid://coxepf0n2l4fe::::res://Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png<>uid://bvcfmxogebywr::::res://assets/2 houses 1 skull/big house.png<>uid://y8hukplx4xwl::::res://assets/caverna.png<>uid://c4kbwym6bxyfp::::res://assets/stone.jpg<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>uid://y78lo2lka3h::::res://cenas/teleporte_3.tscn<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn
-life.tscn::PackedScene::4237328641837186837::1696505116::0::1::::<><>::res://scripts/life.gd<>uid://drshpk7afemud::::res://assets/coracao.png
-pausa.tscn::PackedScene::7952213514175613847::1696505116::0::1::::<><>::res://scripts/pausa.gd<>uid://li018kyggal2::::res://temas_botao/pausa.tres
-player.tscn::PackedScene::826574317876488198::1696505116::0::1::::<><>::res://Scripts/player.gd<>uid://cq1h5po063red::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png<>uid://vvk74vgsgkg2::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png<>uid://48axla5ej2ln::::res://cenas/trial_2d.tscn
-teleporte.tscn::PackedScene::6347656471773119647::1696505116::0::1::::<><>::res://scripts/teleporte.gd
-teleporte_2.tscn::PackedScene::3451093704290792491::1696505116::0::1::::<><>::res://scripts/teleporte_2.gd
-teleporte_3.tscn::PackedScene::51547541690786591::1696505116::0::1::::<><>::res://scripts/teleporte_3.gd
-trial_2d.tscn::PackedScene::2103642583772369335::1696505116::0::1::::<><>::res://scripts/trial_2d.gd
+::res://cenas/::1696506638
+aguacair.tscn::PackedScene::2346426916536065277::1696506638::0::1::::<><>::res://scripts/aguacair.gd
+aplee.tscn::PackedScene::2790207931078858294::1696506637::0::1::::<><>::uid://dnmkigs2qpw3w::::res://imgs/itens/maca.png<>res://scripts/aplee.gd
+game_over_screen.tscn::PackedScene::8894583477819002644::1696506638::0::1::::<><>::res://scripts/game_over_screen.gd<>uid://dk38saqf4tlr7::::res://assets/fonts/m6x11.ttf
+level1.tscn::PackedScene::1471502825836660099::1696506637::0::1::::<><>::uid://txxe5srv56wr::::res://imgs/all_original_edited_tiles-1.png-8.png<>uid://liadcw0otvfx::::res://imgs/green-wood.png<>uid://cn7foxmg7jtbb::::res://imgs/tiles-rock-colour1-alpha.png<>uid://bfa0dkchgamsx::::res://imgs/tiles-tech-gold-green-alpha.png<>uid://bwr504wfnnj10::::res://imgs/white-wood.png<>uid://dl26karxtuaf1::::res://imgs/cave_assets.png<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://dnmkigs2qpw3w::::res://imgs/itens/maca.png<>uid://c7kee06in8xgl::::res://imgs/itens/coracao.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://cwo38e0b3rl3t::::res://cenas/teleporte.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://shaders/transition.gdshader<>res://scripts/transition.gd<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn
+level2.tscn::PackedScene::7306608024451873854::1696506637::0::1::::<><>::uid://clmc2junmxk8n::::res://Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png<>uid://dounketeisq5b::::res://Imagens/Fundo/d2d5f8e7fa9a7fe44c1dee164e8de01e--gra-pixel-art.jpg<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://bg7vupy04uokp::::res://Seasonal Tilesets/5 - Misc. universal tiles/House (112 x 96).png<>uid://dsnu1fqvkfnx8::::res://Seasonal Tilesets/3 - Tropics/Background parts/2 - Waters_version_2.png<>uid://brdxatl3oglor::::res://Seasonal Tilesets/5 - Misc. universal tiles/Lava_frames (16 x 32).png<>uid://5og1f7ah77sr::::res://Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png<>uid://cwaawngapkj7q::::res://Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://b7fru12tht5xk::::res://Seasonal Tilesets/5 - Misc. universal tiles/Winter_entities (16 x 16).png<>uid://bpwveoiwswkl2::::res://Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://cp0a6rlrlfrou::::res://Seasonal Tilesets/5 - Misc. universal tiles/Flowers (16 x 16).png<>uid://d3bq8j4k6yan7::::res://Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png<>uid://s24bp2gxtlmk::::res://Tiles/Tiles/download.jpeg<>uid://coxepf0n2l4fe::::res://Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png<>uid://dcvjrltxpf42m::::res://Seasonal Tilesets/2 - Autumn Forest/Background parts/2 - Trees.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://bpf0akru0lq3l::::res://cenas/teleporte_2.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://scripts/transition.gd<>res://shaders/transition.gdshader<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn
+level3.tscn::PackedScene::5007428999819413178::1696506636::0::1::::<><>::uid://chf6vx1g5drnh::::res://assets/background.png<>uid://s41iutpp6mow::::res://assets/mountain.jpg<>uid://hb6jbmvi2q6f::::res://assets/grass tileset.png<>uid://bbl8m5uoxh60f::::res://assets/heart-removebg-preview.png<>uid://bytaeq3wqpyqi::::res://assets/montanha.png<>uid://ctmjm4uyc4e6p::::res://assets/RandomTree.png<>uid://dwe35nl350q31::::res://assets/tree.png<>uid://drshpk7afemud::::res://assets/coracao.png<>uid://dl26karxtuaf1::::res://imgs/cave_assets.png<>uid://3eo8gc5e23j1::::res://assets/farm.png<>uid://cwmecvfky3ytv::::res://assets/maca.png<>uid://bc6ka6klwe7yd::::res://assets/8bit-water-flat.png<>uid://bpgudsjm7f782::::res://assets/8bit-water-currenty.png<>uid://coxepf0n2l4fe::::res://Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png<>uid://bvcfmxogebywr::::res://assets/2 houses 1 skull/big house.png<>uid://y8hukplx4xwl::::res://assets/caverna.png<>uid://c4kbwym6bxyfp::::res://assets/stone.jpg<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>uid://y78lo2lka3h::::res://cenas/teleporte_3.tscn<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn
+life.tscn::PackedScene::4237328641837186837::1696506638::0::1::::<><>::res://scripts/life.gd<>uid://drshpk7afemud::::res://assets/coracao.png
+pausa.tscn::PackedScene::7952213514175613847::1696506638::0::1::::<><>::res://scripts/pausa.gd<>uid://li018kyggal2::::res://temas_botao/pausa.tres
+player.tscn::PackedScene::826574317876488198::1696506637::0::1::::<><>::res://Scripts/player.gd<>uid://cq1h5po063red::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png<>uid://vvk74vgsgkg2::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png<>uid://48axla5ej2ln::::res://cenas/trial_2d.tscn
+teleporte.tscn::PackedScene::6347656471773119647::1696506637::0::1::::<><>::res://scripts/teleporte.gd
+teleporte_2.tscn::PackedScene::3451093704290792491::1696506637::0::1::::<><>::res://scripts/teleporte_2.gd
+teleporte_3.tscn::PackedScene::51547541690786591::1696506638::0::1::::<><>::res://scripts/teleporte_3.gd
+trial_2d.tscn::PackedScene::2103642583772369335::1696506638::0::1::::<><>::res://scripts/trial_2d.gd
 ::res://Imagens/::1696501707
 ::res://Imagens/Fundo/::1696501707
 d2d5f8e7fa9a7fe44c1dee164e8de01e--gra-pixel-art.jpg::CompressedTexture2D::8184000835575808909::1696501707::1696501707::1::::<><>::
@@ -119,7 +119,7 @@ new_theme.tres::Theme::8042384758921279910::1696501707::0::1::::<><>::
 pause_menu.tscn::PackedScene::4101518363466564613::1696501707::0::1::::<><>::res://Scripts/pause_menu.gd<>uid://dmt15wxectkag
 ::res://scriptglobal/::1696505379
 itens.gd::GDScript::-1::1696505379::0::1::::<>Node<>::
-::res://scripts/::1696505379
+::res://scripts/::1696506268
 aguacair.gd::GDScript::-1::1696505379::0::1::::<>Area2D<>::
 aplee.gd::GDScript::-1::1696501707::0::1::::<>Area2D<>::
 ColorRect.gd::GDScript::-1::1696501707::0::1::::<>ColorRect<>::
@@ -129,12 +129,12 @@ LabelVida.gd::GDScript::-1::1696501707::0::1::::<>Label<>::
 life.gd::GDScript::-1::1696501707::0::1::::<>Area2D<>::
 pausa.gd::GDScript::-1::1696501707::0::1::::<>CanvasLayer<>::
 player.gd::GDScript::-1::1696505379::0::1::::<>CharacterBody2D<>::
-teleporte.gd::GDScript::-1::1696501707::0::1::::<>Area2D<>::
-teleporte_2.gd::GDScript::-1::1696501707::0::1::::<>Area2D<>::
-teleporte_3.gd::GDScript::-1::1696504838::0::1::::<>Area2D<>::
+teleporte.gd::GDScript::-1::1696506268::0::1::::<>Area2D<>::
+teleporte_2.gd::GDScript::-1::1696506268::0::1::::<>Area2D<>::
+teleporte_3.gd::GDScript::-1::1696506215::0::1::::<>Area2D<>::
 transition.gd::GDScript::-1::1696501707::0::1::::<>CanvasLayer<>::
 trial_2d.gd::GDScript::-1::1696501707::0::1::::<>Line2D<>::
-::res://Scripts/::1696505379
+::res://Scripts/::1696506268
 aguacair.gd::GDScript::-1::1696505379::0::1::::<>Area2D<>::
 aplee.gd::GDScript::-1::1696501707::0::1::::<>Area2D<>::
 ColorRect.gd::GDScript::-1::1696501707::0::1::::<>ColorRect<>::
@@ -144,9 +144,9 @@ LabelVida.gd::GDScript::-1::1696501707::0::1::::<>Label<>::
 life.gd::GDScript::-1::1696501707::0::1::::<>Area2D<>::
 pausa.gd::GDScript::-1::1696501707::0::1::::<>CanvasLayer<>::
 player.gd::GDScript::-1::1696505379::0::1::::<>CharacterBody2D<>::
-teleporte.gd::GDScript::-1::1696501707::0::1::::<>Area2D<>::
-teleporte_2.gd::GDScript::-1::1696501707::0::1::::<>Area2D<>::
-teleporte_3.gd::GDScript::-1::1696504838::0::1::::<>Area2D<>::
+teleporte.gd::GDScript::-1::1696506268::0::1::::<>Area2D<>::
+teleporte_2.gd::GDScript::-1::1696506268::0::1::::<>Area2D<>::
+teleporte_3.gd::GDScript::-1::1696506215::0::1::::<>Area2D<>::
 transition.gd::GDScript::-1::1696501707::0::1::::<>CanvasLayer<>::
 trial_2d.gd::GDScript::-1::1696501707::0::1::::<>Line2D<>::
 ::res://Seasonal Tilesets/::1696501707
@@ -204,8 +204,8 @@ Rock_shape (16 x 16).png::CompressedTexture2D::6970401631734396524::1696501707::
 Snack_machine_Bench_Trash_bin (16 x 16).png::CompressedTexture2D::6964572591338951258::1696501707::1696501707::1::::<><>::
 Water_frames (16 x 32).png::CompressedTexture2D::5803235823405738378::1696501707::1696501707::1::::<><>::
 Winter_entities (16 x 16).png::CompressedTexture2D::4643854881825796664::1696501707::1696501707::1::::<><>::
-::res://shaders/::1696505116
-transition.gdshader::Shader::-1::1696505116::0::1::::<><>::
+::res://shaders/::1696506638
+transition.gdshader::Shader::-1::1696506638::0::1::::<><>::
 ::res://temas_botao/::1696501707
 pausa.tres::Theme::790158407328826657::1696501707::0::1::::<><>::uid://dk38saqf4tlr7
 ::res://Tiles/::1696501707
