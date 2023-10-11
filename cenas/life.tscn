@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://b1mugikftjbdt"]
+[gd_scene load_steps=5 format=3 uid="uid://b1mugikftjbdt"]
 
 [ext_resource type="Script" path="res://scripts/life.gd" id="1_ert6f"]
 [ext_resource type="Texture2D" uid="uid://drshpk7afemud" path="res://assets/coracao.png" id="2_gutkb"]
+[ext_resource type="AudioStream" uid="uid://fj6in63jw0xj" path="res://sounds/collect_sfx.wav" id="3_jkc70"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1wvci"]
 radius = 13.1529
@@ -19,5 +20,8 @@ texture = ExtResource("2_gutkb")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(19, 18)
 shape = SubResource("CircleShape2D_1wvci")
+
+[node name="life_collect_sfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_jkc70")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

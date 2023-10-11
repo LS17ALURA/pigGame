@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://8ovkqvhdl1sj"]
+[gd_scene load_steps=4 format=3 uid="uid://8ovkqvhdl1sj"]
 
 [ext_resource type="Script" path="res://scripts/aguacair.gd" id="1_unmyr"]
+[ext_resource type="AudioStream" uid="uid://c4jy5gpuy87w1" path="res://sounds/water_sfx.wav" id="2_xxcr2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_al6rb"]
 size = Vector2(341.5, 132.75)
@@ -11,5 +12,8 @@ script = ExtResource("1_unmyr")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(278.25, 144.625)
 shape = SubResource("RectangleShape2D_al6rb")
+
+[node name="water_sfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_xxcr2")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

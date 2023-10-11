@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://u72o3wir1kwp"]
+[gd_scene load_steps=33 format=3 uid="uid://u72o3wir1kwp"]
 
 [ext_resource type="Texture2D" uid="uid://txxe5srv56wr" path="res://imgs/all_original_edited_tiles-1.png-8.png" id="1_ptsig"]
 [ext_resource type="Texture2D" uid="uid://liadcw0otvfx" path="res://imgs/green-wood.png" id="2_ixlvt"]
@@ -20,6 +20,7 @@
 [ext_resource type="Script" path="res://scripts/ColorRect.gd" id="17_35h78"]
 [ext_resource type="PackedScene" uid="uid://dlkd2ayxcqcpr" path="res://cenas/pausa.tscn" id="19_swto7"]
 [ext_resource type="PackedScene" uid="uid://8ovkqvhdl1sj" path="res://cenas/aguacair.tscn" id="20_xosk7"]
+[ext_resource type="AudioStream" uid="uid://b1i7jfbcfcfet" path="res://sounds/bg_music.wav" id="21_7mtd6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uioxx"]
 texture = ExtResource("1_ptsig")
@@ -24574,7 +24575,7 @@ shader_parameter/line_color_b = Color(0.576471, 0.776471, 0.482353, 1)
 
 [node name="level1" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="."]
+[node name="cenario" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_yp3xf")
 format = 2
 layer_0/name = "cenário"
@@ -24751,3 +24752,9 @@ position = Vector2(144, 608)
 
 [node name="aguacair2" parent="." instance=ExtResource("20_xosk7")]
 position = Vector2(1856, 608)
+
+[node name="bg_music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_7mtd6")
+volume_db = -25.0
+pitch_scale = 0.76
+autoplay = true

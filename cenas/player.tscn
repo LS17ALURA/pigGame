@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://l1ns8lrpmc7o"]
+[gd_scene load_steps=12 format=3 uid="uid://l1ns8lrpmc7o"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_c3skf"]
 [ext_resource type="Texture2D" uid="uid://cq1h5po063red" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png" id="2_gojui"]
 [ext_resource type="Texture2D" uid="uid://vvk74vgsgkg2" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png" id="3_hifm3"]
 [ext_resource type="PackedScene" uid="uid://48axla5ej2ln" path="res://cenas/trial_2d.tscn" id="4_ccjtc"]
+[ext_resource type="AudioStream" uid="uid://d25hsfaect885" path="res://sounds/jump_sfx.wav" id="5_exwoa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_00sg4"]
 size = Vector2(15, 19)
@@ -77,3 +78,8 @@ autoplay = "Idle"
 [node name="animator" type="AnimationPlayer" parent="."]
 
 [node name="trial_2D" parent="." instance=ExtResource("4_ccjtc")]
+
+[node name="jump_sfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_exwoa")
+volume_db = -45.0
+pitch_scale = 0.36

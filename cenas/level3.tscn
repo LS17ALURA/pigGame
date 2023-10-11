@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://cdlvvhm8c53tu"]
+[gd_scene load_steps=44 format=3 uid="uid://cdlvvhm8c53tu"]
 
 [ext_resource type="Texture2D" uid="uid://chf6vx1g5drnh" path="res://assets/background.png" id="1_7qsn6"]
 [ext_resource type="Texture2D" uid="uid://s41iutpp6mow" path="res://assets/mountain.jpg" id="2_637ga"]
@@ -25,6 +25,7 @@
 [ext_resource type="PackedScene" uid="uid://8ovkqvhdl1sj" path="res://cenas/aguacair.tscn" id="24_wq8nr"]
 [ext_resource type="PackedScene" uid="uid://y78lo2lka3h" path="res://cenas/teleporte_3.tscn" id="25_1n8mt"]
 [ext_resource type="PackedScene" uid="uid://dlkd2ayxcqcpr" path="res://cenas/pausa.tscn" id="25_ivndq"]
+[ext_resource type="AudioStream" uid="uid://b1i7jfbcfcfet" path="res://sounds/bg_music.wav" id="26_3ytsk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2xarv"]
 texture = ExtResource("2_637ga")
@@ -16416,3 +16417,9 @@ position = Vector2(1936, 544)
 
 [node name="teleporte3" parent="." instance=ExtResource("25_1n8mt")]
 position = Vector2(-16, 144)
+
+[node name="bg_music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_3ytsk")
+volume_db = -25.0
+pitch_scale = 0.76
+autoplay = true
