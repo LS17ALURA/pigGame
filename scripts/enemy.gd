@@ -5,7 +5,7 @@ const SPEED = 700.0
 const JUMP_VELOCITY = -400.0
 
 @onready var wall_detector := $wall_detector as RayCast2D
-@
+
 var direction := -1
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
@@ -19,7 +19,8 @@ func _physics_process(delta):
 		
 	if wall_detector.is_colliding():
 		direction *= -1
-		wall_detector.scale.x *= -1
+		# wall_detector.scale.x *= -1
+		self.scale.x=-1
 		
 
 

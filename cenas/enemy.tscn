@@ -3,49 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://bol5sg13pw0rj" path="res://Imagens/Inimigo/WhatsApp_Image_2023-09-30_at_16.30.49-removebg-preview (1).png" id="1_a6crc"]
 [ext_resource type="Script" path="res://scripts/enemy.gd" id="1_o4x5s"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_k2b7v"]
-radius = 50.1166
-
-[sub_resource type="Animation" id="Animation_ueqnc"]
-resource_name = "walk"
-length = 0.3
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("texture:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("1_a6crc")]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("texture:hframes")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [3]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("texture:frame")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 1,
-"values": [0, 1, 2]
-}
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_erfri"]
+size = Vector2(74.7999, 85)
 
 [sub_resource type="Animation" id="Animation_iigdt"]
 length = 0.001
@@ -127,6 +86,47 @@ tracks/2/keys = {
 "values": [0, 1, 2]
 }
 
+[sub_resource type="Animation" id="Animation_ueqnc"]
+resource_name = "walk"
+length = 0.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("texture:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_a6crc")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("texture:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [3]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("texture:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [0, 1, 2]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ptwiq"]
 _data = {
 "RESET": SubResource("Animation_iigdt"),
@@ -141,12 +141,12 @@ collision_mask = 2
 script = ExtResource("1_o4x5s")
 
 [node name="colision" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -14)
+position = Vector2(3.5, -12.5)
 scale = Vector2(0.200535, 0.2)
-shape = SubResource("CircleShape2D_k2b7v")
+shape = SubResource("RectangleShape2D_erfri")
 
 [node name="texture" type="Sprite2D" parent="."]
-position = Vector2(-4, -13)
+position = Vector2(2, -13)
 scale = Vector2(0.113302, 0.107639)
 texture = ExtResource("1_a6crc")
 hframes = 3
@@ -159,6 +159,6 @@ libraries = {
 }
 
 [node name="wall_detector" type="RayCast2D" parent="."]
-position = Vector2(-3, -14)
-target_position = Vector2(-9, 0)
+position = Vector2(2, -14)
+target_position = Vector2(-11, 0)
 collision_mask = 6

@@ -1,1 +1,4 @@
 res://cenas/level1.tscn
+res://cenas/enemy.tscn
+res://scripts/enemy.gd
+res://cenas/player.tscn
