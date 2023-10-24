@@ -83,3 +83,8 @@ autoplay = "Idle"
 stream = ExtResource("5_exwoa")
 volume_db = -45.0
 pitch_scale = 0.36
+
+[node name="coyote_timer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="coyote_timer" to="." method="_on_coyote_timer_timeout"]
