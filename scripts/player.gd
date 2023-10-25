@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @onready var jump_sfx=$jump_sfx as AudioStreamPlayer
-const SPEED = 300.0
+const SPEED = 200.0
 const JUMP_VELOCITY = -400.0
 var can_jump := true
 @onready var coyote_timer = $coyote_timer as Timer
