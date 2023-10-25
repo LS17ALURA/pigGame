@@ -24771,11 +24771,11 @@ position = Vector2(1727, 676)
 [node name="Inimigos" type="Node2D" parent="enemy2"]
 
 [node name="enemy3" parent="." instance=ExtResource("22_wgaqe")]
-position = Vector2(1923, 675)
+position = Vector2(1882, 676)
 
 [node name="Inimigos" type="Node2D" parent="enemy3"]
 
 [node name="enemy4" parent="." instance=ExtResource("22_wgaqe")]
-position = Vector2(1970, 675)
+position = Vector2(1969, 677)
 
 [node name="Inimigos" type="Node2D" parent="enemy4"]
