@@ -40,10 +40,9 @@ hitSound.wav::AudioStreamWAV::1721811400276295529::1698166565::1698166603::1::::
 selectSound.wav::AudioStreamWAV::1858315218889162102::1698166565::1698166603::1::::<><>::
 ::res://assets/fonts/::1698166602
 m6x11.ttf::FontFile::7920988894608443798::1698166565::1698166602::1::::<><>::
-::res://cenas/::1698279092
+::res://cenas/::1698279438
 aguacair.tscn::PackedScene::2346426916536065277::1698279090::0::1::::<><>::res://scripts/aguacair.gd<>uid://c4jy5gpuy87w1::::res://sounds/water_sfx.wav
 aplee.tscn::PackedScene::2790207931078858294::1698166566::0::1::::<><>::uid://dnmkigs2qpw3w
-bitbox.tscn::PackedScene::6128671495341355427::1698237649::0::1::::<><>::
 enemy.tscn::PackedScene::7397651585855974582::1698279090::0::1::::<><>::uid://bol5sg13pw0rj::::res://Imagens/Inimigo/WhatsApp_Image_2023-09-30_at_16.30.49-removebg-preview (1).png<>res://scripts/enemy.gd<>uid://egp7rqclodbh::::res://cenas/hitbox.tscn
 game_over_screen.tscn::PackedScene::8894583477819002644::1698279090::0::1::::<><>::res://scripts/game_over_screen.gd<>uid://dk38saqf4tlr7::::res://assets/fonts/m6x11.ttf
 hitbox.tscn::PackedScene::294110459092889237::1698279090::0::1::::<><>::res://scripts/hitbox.gd
