@@ -1,8 +1,7 @@
-res://scripts/hitbox.gd
-res://cenas/hitbox.tscn
-res://cenas/level1.tscn
 res://cenas/enemy.tscn
 res://cenas/player.tscn
+res://cenas/hitbox.tscn
 res://cenas/game_over_screen.tscn
 res://cenas/aguacair.tscn
-res://scripts/enemy.gd
+res://cenas/level2.tscn
+res://cenas/level1.tscn

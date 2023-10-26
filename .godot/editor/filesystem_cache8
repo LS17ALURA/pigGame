@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698237909
+::res://::1698278607
 export_presets.cfg::TextFile::-1::1698166562::0::1::::<><>::
 icon.svg::CompressedTexture2D::3145772868206951900::1698166562::1698166602::1::::<><>::
 ::res://assets/::1698166603
@@ -40,18 +40,19 @@ hitSound.wav::AudioStreamWAV::1721811400276295529::1698166565::1698166603::1::::
 selectSound.wav::AudioStreamWAV::1858315218889162102::1698166565::1698166603::1::::<><>::
 ::res://assets/fonts/::1698166602
 m6x11.ttf::FontFile::7920988894608443798::1698166565::1698166602::1::::<><>::
-::res://cenas/::1698241380
-aguacair.tscn::PackedScene::2346426916536065277::1698241174::0::1::::<><>::res://scripts/aguacair.gd<>uid://c4jy5gpuy87w1::::res://sounds/water_sfx.wav
+::res://cenas/::1698278998
+aguacair.tscn::PackedScene::2346426916536065277::1698278996::0::1::::<><>::res://scripts/aguacair.gd<>uid://c4jy5gpuy87w1::::res://sounds/water_sfx.wav
 aplee.tscn::PackedScene::2790207931078858294::1698166566::0::1::::<><>::uid://dnmkigs2qpw3w
 bitbox.tscn::PackedScene::6128671495341355427::1698237649::0::1::::<><>::
-enemy.tscn::PackedScene::7397651585855974582::1698240976::0::1::::<><>::uid://bol5sg13pw0rj::::res://Imagens/Inimigo/WhatsApp_Image_2023-09-30_at_16.30.49-removebg-preview (1).png<>res://scripts/enemy.gd<>uid://egp7rqclodbh::::res://cenas/hitbox.tscn
-game_over_screen.tscn::PackedScene::8894583477819002644::1698240976::0::1::::<><>::res://scripts/game_over_screen.gd<>uid://dk38saqf4tlr7::::res://assets/fonts/m6x11.ttf
-level1.tscn::PackedScene::1471502825836660099::1698240976::0::1::::<><>::uid://txxe5srv56wr::::res://imgs/all_original_edited_tiles-1.png-8.png<>uid://liadcw0otvfx::::res://imgs/green-wood.png<>uid://cn7foxmg7jtbb::::res://imgs/tiles-rock-colour1-alpha.png<>uid://bfa0dkchgamsx::::res://imgs/tiles-tech-gold-green-alpha.png<>uid://bwr504wfnnj10::::res://imgs/white-wood.png<>uid://dl26karxtuaf1::::res://imgs/cave_assets.png<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://dnmkigs2qpw3w::::res://imgs/itens/maca.png<>uid://c7kee06in8xgl::::res://imgs/itens/coracao.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://cwo38e0b3rl3t::::res://cenas/teleporte.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://shaders/transition.gdshader<>res://scripts/transition.gd<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>uid://b1i7jfbcfcfet::::res://sounds/bg_music.wav<>uid://ddnqigm0h8dic::::res://cenas/enemy.tscn
-level2.tscn::PackedScene::7306608024451873854::1698166762::0::1::::<><>::uid://clmc2junmxk8n
+enemy.tscn::PackedScene::7397651585855974582::1698278995::0::1::::<><>::uid://bol5sg13pw0rj::::res://Imagens/Inimigo/WhatsApp_Image_2023-09-30_at_16.30.49-removebg-preview (1).png<>res://scripts/enemy.gd<>uid://egp7rqclodbh::::res://cenas/hitbox.tscn
+game_over_screen.tscn::PackedScene::8894583477819002644::1698278995::0::1::::<><>::res://scripts/game_over_screen.gd<>uid://dk38saqf4tlr7::::res://assets/fonts/m6x11.ttf
+hitbox.tscn::PackedScene::294110459092889237::1698278995::0::1::::<><>::res://scripts/hitbox.gd
+level1.tscn::PackedScene::1471502825836660099::1698278997::0::1::::<><>::uid://txxe5srv56wr::::res://imgs/all_original_edited_tiles-1.png-8.png<>uid://liadcw0otvfx::::res://imgs/green-wood.png<>uid://cn7foxmg7jtbb::::res://imgs/tiles-rock-colour1-alpha.png<>uid://bfa0dkchgamsx::::res://imgs/tiles-tech-gold-green-alpha.png<>uid://bwr504wfnnj10::::res://imgs/white-wood.png<>uid://dl26karxtuaf1::::res://imgs/cave_assets.png<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://dnmkigs2qpw3w::::res://imgs/itens/maca.png<>uid://c7kee06in8xgl::::res://imgs/itens/coracao.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://cwo38e0b3rl3t::::res://cenas/teleporte.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://shaders/transition.gdshader<>res://scripts/transition.gd<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>uid://b1i7jfbcfcfet::::res://sounds/bg_music.wav<>uid://ddnqigm0h8dic::::res://cenas/enemy.tscn
+level2.tscn::PackedScene::7306608024451873854::1698278996::0::1::::<><>::uid://clmc2junmxk8n::::res://Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png<>uid://dounketeisq5b::::res://Imagens/Fundo/d2d5f8e7fa9a7fe44c1dee164e8de01e--gra-pixel-art.jpg<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://bg7vupy04uokp::::res://Seasonal Tilesets/5 - Misc. universal tiles/House (112 x 96).png<>uid://dsnu1fqvkfnx8::::res://Seasonal Tilesets/3 - Tropics/Background parts/2 - Waters_version_2.png<>uid://brdxatl3oglor::::res://Seasonal Tilesets/5 - Misc. universal tiles/Lava_frames (16 x 32).png<>uid://5og1f7ah77sr::::res://Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png<>uid://cwaawngapkj7q::::res://Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://b7fru12tht5xk::::res://Seasonal Tilesets/5 - Misc. universal tiles/Winter_entities (16 x 16).png<>uid://bpwveoiwswkl2::::res://Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://cp0a6rlrlfrou::::res://Seasonal Tilesets/5 - Misc. universal tiles/Flowers (16 x 16).png<>uid://d3bq8j4k6yan7::::res://Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png<>uid://s24bp2gxtlmk::::res://Tiles/Tiles/download.jpeg<>uid://coxepf0n2l4fe::::res://Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png<>uid://dcvjrltxpf42m::::res://Seasonal Tilesets/2 - Autumn Forest/Background parts/2 - Trees.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://bpf0akru0lq3l::::res://cenas/teleporte_2.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://scripts/transition.gd<>res://shaders/transition.gdshader<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn<>uid://b1i7jfbcfcfet::::res://sounds/bg_music.wav
 level3.tscn::PackedScene::5007428999819413178::1698166566::0::1::::<><>::uid://chf6vx1g5drnh
 life.tscn::PackedScene::4237328641837186837::1698166566::0::1::::<><>::res://scripts/life.gd<>uid://drshpk7afemud
 pausa.tscn::PackedScene::7952213514175613847::1698166566::0::1::::<><>::res://scripts/pausa.gd<>uid://li018kyggal2
-player.tscn::PackedScene::826574317876488198::1698241174::0::1::::<><>::res://Scripts/player.gd<>uid://cq1h5po063red::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png<>uid://vvk74vgsgkg2::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png<>uid://48axla5ej2ln::::res://cenas/trial_2d.tscn<>uid://d25hsfaect885::::res://sounds/jump_sfx.wav
+player.tscn::PackedScene::826574317876488198::1698278995::0::1::::<><>::res://Scripts/player.gd<>uid://cq1h5po063red::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png<>uid://vvk74vgsgkg2::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png<>uid://48axla5ej2ln::::res://cenas/trial_2d.tscn<>uid://d25hsfaect885::::res://sounds/jump_sfx.wav
 teleporte.tscn::PackedScene::6347656471773119647::1698166566::0::1::::<><>::res://scripts/teleporte.gd
 teleporte_2.tscn::PackedScene::3451093704290792491::1698166566::0::1::::<><>::res://scripts/teleporte_2.gd
 teleporte_3.tscn::PackedScene::51547541690786591::1698166566::0::1::::<><>::res://scripts/teleporte_3.gd
@@ -142,6 +143,23 @@ teleporte_2.gd::GDScript::-1::1698166568::0::1::::<>Area2D<>::
 teleporte_3.gd::GDScript::-1::1698166568::0::1::::<>Area2D<>::
 transition.gd::GDScript::-1::1698166568::0::1::::<>CanvasLayer<>::
 trial_2d.gd::GDScript::-1::1698166568::0::1::::<>Line2D<>::
+::res://Scripts/::1698240927
+aguacair.gd::GDScript::-1::1698166568::0::1::::<>Area2D<>::
+aplee.gd::GDScript::-1::1698166568::0::1::::<>Area2D<>::
+ColorRect.gd::GDScript::-1::1698166568::0::1::::<>ColorRect<>::
+enemy.gd::GDScript::-1::1698240699::0::1::::<>CharacterBody2D<>::
+game_over_screen.gd::GDScript::-1::1698166568::0::1::::<>Control<>::
+hitbox.gd::GDScript::-1::1698240927::0::1::::<>Area2D<>::
+LabelMacas.gd::GDScript::-1::1698166568::0::1::::<>Label<>::
+LabelVida.gd::GDScript::-1::1698166568::0::1::::<>Label<>::
+life.gd::GDScript::-1::1698166568::0::1::::<>Area2D<>::
+pausa.gd::GDScript::-1::1698166568::0::1::::<>CanvasLayer<>::
+player.gd::GDScript::-1::1698186617::0::1::::<>CharacterBody2D<>::
+teleporte.gd::GDScript::-1::1698166568::0::1::::<>Area2D<>::
+teleporte_2.gd::GDScript::-1::1698166568::0::1::::<>Area2D<>::
+teleporte_3.gd::GDScript::-1::1698166568::0::1::::<>Area2D<>::
+transition.gd::GDScript::-1::1698166568::0::1::::<>CanvasLayer<>::
+trial_2d.gd::GDScript::-1::1698166568::0::1::::<>Line2D<>::
 ::res://Seasonal Tilesets/::1698166569
 LICENSE.txt::TextFile::-1::1698166568::0::1::::<><>::
 ::res://Seasonal Tilesets/1 - Grassland/::1698166602
@@ -211,239 +229,13 @@ pausa.tres::Theme::790158407328826657::1698166569::0::1::::<><>::uid://dk38saqf4
 ::res://Tiles/Tiles/::1698166602
 Autor_note.txt::TextFile::-1::1698166569::0::1::::<><>::
 download.jpeg::CompressedTexture2D::1320900793292408790::1698166569::1698166602::1::::<><>::
-::res://::1698236477
-export_presets.cfg::TextFile::-1::1698236449::0::1::::<><>::
-icon.svg::CompressedTexture2D::3145772868206951900::1698236449::1698236449::1::::<><>::
-::res://assets/::1698236449
-8bit-water-currenty.png::CompressedTexture2D::3452860261936754277::1698236449::1698236449::1::::<><>::
-8bit-water-flat.png::CompressedTexture2D::2591402895473966227::1698236449::1698236449::1::::<><>::
-background.png::CompressedTexture2D::5276406138585299645::1698236449::1698236449::1::::<><>::
-ball.png::CompressedTexture2D::5369897234750729378::1698236449::1698236449::1::::<><>::
-bola.png::CompressedTexture2D::5403538751068462720::1698236449::1698236449::1::::<><>::
-caverna.png::CompressedTexture2D::1753117996961473227::1698236449::1698236449::1::::<><>::
-coracao.png::CompressedTexture2D::8390083573030964555::1698236449::1698236449::1::::<><>::
-farm.png::CompressedTexture2D::1974454421577949588::1698236449::1698236449::1::::<><>::
-grass tileset.png::CompressedTexture2D::495284654168109403::1698236449::1698236449::1::::<><>::
-heart-removebg-preview.png::CompressedTexture2D::2481344380177679163::1698236449::1698236449::1::::<><>::
-heart.png::CompressedTexture2D::621089490931636877::1698236449::1698236449::1::::<><>::
-maca.png::CompressedTexture2D::6342016011232437851::1698236449::1698236449::1::::<><>::
-montanha.png::CompressedTexture2D::4110184136158338112::1698236449::1698236449::1::::<><>::
-mountain.jpg::CompressedTexture2D::1324860149036579626::1698236449::1698236449::1::::<><>::
-pixil-frame-0-removebg-preview.png::CompressedTexture2D::3039668222122974468::1698236449::1698236449::1::::<><>::
-player1.png::CompressedTexture2D::808329139474355172::1698236449::1698236449::1::::<><>::
-player1a.png::CompressedTexture2D::6342515110942296789::1698236449::1698236449::1::::<><>::
-player2.png::CompressedTexture2D::3947752239403121774::1698236449::1698236449::1::::<><>::
-player2a.png::CompressedTexture2D::7221068579032483442::1698236449::1698236449::1::::<><>::
-porco.jpg::CompressedTexture2D::3089241783031627368::1698236449::1698236449::1::::<><>::
-porco_1-removebg-preview.png::CompressedTexture2D::2701627370148808577::1698236449::1698236449::1::::<><>::
-porco_2-removebg-preview.png::CompressedTexture2D::9070797249988986787::1698236449::1698236449::1::::<><>::
-RandomTree.png::CompressedTexture2D::6131771367186802501::1698236449::1698236449::1::::<><>::
-raquete.png::CompressedTexture2D::1698957605240753981::1698236449::1698236449::1::::<><>::
-stone.jpg::CompressedTexture2D::6829062895397236033::1698236449::1698236449::1::::<><>::
-tree.png::CompressedTexture2D::8713428472856547066::1698236449::1698236449::1::::<><>::
-Water_frames (16 x 32).png::CompressedTexture2D::5803235823405738378::1698236449::1698236449::1::::<><>::
-::res://assets/2 houses 1 skull/::1698236449
-big house.png::CompressedTexture2D::3864841400032932581::1698236449::1698236449::1::::<><>::
-readme.txt::TextFile::-1::1698236449::0::1::::<><>::
-skull.png::CompressedTexture2D::3047985877883514914::1698236449::1698236449::1::::<><>::
-small house.png::CompressedTexture2D::711049753843467991::1698236449::1698236449::1::::<><>::
-::res://assets/audio/::1698236449
-hitSound.wav::AudioStreamWAV::1721811400276295529::1698236449::1698236449::1::::<><>::
-selectSound.wav::AudioStreamWAV::1858315218889162102::1698236449::1698236449::1::::<><>::
-::res://assets/fonts/::1698236449
-m6x11.ttf::FontFile::7920988894608443798::1698236449::1698236449::1::::<><>::
-::res://cenas/::1698236534
-aguacair.tscn::PackedScene::2346426916536065277::1698236449::0::1::::<><>::res://scripts/aguacair.gd<>uid://c4jy5gpuy87w1::::res://sounds/water_sfx.wav
-aplee.tscn::PackedScene::2790207931078858294::1698236449::0::1::::<><>::uid://dnmkigs2qpw3w::::res://imgs/itens/maca.png<>res://scripts/aplee.gd<>uid://fj6in63jw0xj::::res://sounds/collect_sfx.wav
-enemy.tscn::PackedScene::7397651585855974582::1698236534::0::1::::<><>::uid://bol5sg13pw0rj::::res://Imagens/Inimigo/WhatsApp_Image_2023-09-30_at_16.30.49-removebg-preview (1).png<>res://scripts/enemy.gd
-game_over_screen.tscn::PackedScene::8894583477819002644::1698236449::0::1::::<><>::res://scripts/game_over_screen.gd<>uid://dk38saqf4tlr7::::res://assets/fonts/m6x11.ttf
-level1.tscn::PackedScene::1471502825836660099::1698236534::0::1::::<><>::uid://txxe5srv56wr::::res://imgs/all_original_edited_tiles-1.png-8.png<>uid://liadcw0otvfx::::res://imgs/green-wood.png<>uid://cn7foxmg7jtbb::::res://imgs/tiles-rock-colour1-alpha.png<>uid://bfa0dkchgamsx::::res://imgs/tiles-tech-gold-green-alpha.png<>uid://bwr504wfnnj10::::res://imgs/white-wood.png<>uid://dl26karxtuaf1::::res://imgs/cave_assets.png<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://dnmkigs2qpw3w::::res://imgs/itens/maca.png<>uid://c7kee06in8xgl::::res://imgs/itens/coracao.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://cwo38e0b3rl3t::::res://cenas/teleporte.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://shaders/transition.gdshader<>res://scripts/transition.gd<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>uid://b1i7jfbcfcfet::::res://sounds/bg_music.wav<>uid://ddnqigm0h8dic::::res://cenas/enemy.tscn
-level2.tscn::PackedScene::7306608024451873854::1698236449::0::1::::<><>::uid://clmc2junmxk8n::::res://Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png<>uid://dounketeisq5b::::res://Imagens/Fundo/d2d5f8e7fa9a7fe44c1dee164e8de01e--gra-pixel-art.jpg<>uid://hol10xrj2n57::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://bg7vupy04uokp::::res://Seasonal Tilesets/5 - Misc. universal tiles/House (112 x 96).png<>uid://dsnu1fqvkfnx8::::res://Seasonal Tilesets/3 - Tropics/Background parts/2 - Waters_version_2.png<>uid://brdxatl3oglor::::res://Seasonal Tilesets/5 - Misc. universal tiles/Lava_frames (16 x 32).png<>uid://5og1f7ah77sr::::res://Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png<>uid://cwaawngapkj7q::::res://Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://b7fru12tht5xk::::res://Seasonal Tilesets/5 - Misc. universal tiles/Winter_entities (16 x 16).png<>uid://bpwveoiwswkl2::::res://Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://cp0a6rlrlfrou::::res://Seasonal Tilesets/5 - Misc. universal tiles/Flowers (16 x 16).png<>uid://d3bq8j4k6yan7::::res://Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png<>uid://s24bp2gxtlmk::::res://Tiles/Tiles/download.jpeg<>uid://coxepf0n2l4fe::::res://assets/Water_frames (16 x 32).png<>uid://dcvjrltxpf42m::::res://Seasonal Tilesets/2 - Autumn Forest/Background parts/2 - Trees.png<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>uid://bpf0akru0lq3l::::res://cenas/teleporte_2.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>res://scripts/transition.gd<>res://shaders/transition.gdshader<>res://scripts/ColorRect.gd<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn<>uid://b1i7jfbcfcfet::::res://sounds/bg_music.wav
-level3.tscn::PackedScene::5007428999819413178::1698236449::0::1::::<><>::uid://chf6vx1g5drnh::::res://assets/background.png<>uid://s41iutpp6mow::::res://assets/mountain.jpg<>uid://hb6jbmvi2q6f::::res://assets/grass tileset.png<>uid://bbl8m5uoxh60f::::res://assets/heart-removebg-preview.png<>uid://bytaeq3wqpyqi::::res://assets/montanha.png<>uid://ctmjm4uyc4e6p::::res://assets/RandomTree.png<>uid://dwe35nl350q31::::res://assets/tree.png<>uid://drshpk7afemud::::res://assets/coracao.png<>uid://dl26karxtuaf1::::res://imgs/cave_assets.png<>uid://3eo8gc5e23j1::::res://assets/farm.png<>uid://cwmecvfky3ytv::::res://assets/maca.png<>uid://bc6ka6klwe7yd::::res://assets/8bit-water-flat.png<>uid://bpgudsjm7f782::::res://assets/8bit-water-currenty.png<>uid://coxepf0n2l4fe::::res://assets/Water_frames (16 x 32).png<>uid://bvcfmxogebywr::::res://assets/2 houses 1 skull/big house.png<>uid://y8hukplx4xwl::::res://assets/caverna.png<>uid://c4kbwym6bxyfp::::res://assets/stone.jpg<>uid://l1ns8lrpmc7o::::res://cenas/player.tscn<>uid://bf0uk1og68sje::::res://cenas/aplee.tscn<>res://scripts/LabelMacas.gd<>res://scripts/LabelVida.gd<>uid://b1mugikftjbdt::::res://cenas/life.tscn<>uid://8ovkqvhdl1sj::::res://cenas/aguacair.tscn<>uid://y78lo2lka3h::::res://cenas/teleporte_3.tscn<>uid://dlkd2ayxcqcpr::::res://cenas/pausa.tscn<>uid://b1i7jfbcfcfet::::res://sounds/bg_music.wav<>uid://ddnqigm0h8dic::::res://cenas/enemy.tscn
-life.tscn::PackedScene::4237328641837186837::1698236449::0::1::::<><>::res://scripts/life.gd<>uid://drshpk7afemud::::res://assets/coracao.png<>uid://fj6in63jw0xj::::res://sounds/collect_sfx.wav
-pausa.tscn::PackedScene::7952213514175613847::1698236449::0::1::::<><>::res://scripts/pausa.gd<>uid://li018kyggal2::::res://temas_botao/pausa.tres
-player.tscn::PackedScene::826574317876488198::1698236534::0::1::::<><>::res://Scripts/player.gd<>uid://cq1h5po063red::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png<>uid://vvk74vgsgkg2::::res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png<>uid://48axla5ej2ln::::res://cenas/trial_2d.tscn<>uid://d25hsfaect885::::res://sounds/jump_sfx.wav
-teleporte.tscn::PackedScene::6347656471773119647::1698236449::0::1::::<><>::res://scripts/teleporte.gd
-teleporte_2.tscn::PackedScene::3451093704290792491::1698236449::0::1::::<><>::res://scripts/teleporte_2.gd
-teleporte_3.tscn::PackedScene::51547541690786591::1698236449::0::1::::<><>::res://scripts/teleporte_3.gd
-trial_2d.tscn::PackedScene::2103642583772369335::1698236449::0::1::::<><>::res://scripts/trial_2d.gd
-WhatsApp Image 2023-09-30 at 16.30.49.jpeg::CompressedTexture2D::3359406089054376275::1698236449::1698236449::1::::<><>::
-::res://Imagens/::1698236449
-::res://Imagens/Fundo/::1698236449
-d2d5f8e7fa9a7fe44c1dee164e8de01e--gra-pixel-art.jpg::CompressedTexture2D::8184000835575808909::1698236449::1698236449::1::::<><>::
-::res://Imagens/Inimigo/::1698236449
-WhatsApp_Image_2023-09-30_at_16.30.49-removebg-preview (1).png::CompressedTexture2D::3393626660591640783::1698236449::1698236449::1::::<><>::
-WhatsApp_Image_2023-09-30_at_16.30.49-removebg-preview.png::CompressedTexture2D::4180160061184957675::1698236449::1698236449::1::::<><>::
-::res://Imagens/Porco Anima/::1698236449
-porcoooooooooooooooooooooo11-removebg-preview - Copia.png::CompressedTexture2D::1517983520481517791::1698236449::1698236449::1::::<><>::
-porcoooooooooooooooooooooo11-removebg-preview.png::CompressedTexture2D::5950016090622732863::1698236449::1698236449::1::::<><>::
-::res://imgs/::1698236449
-all_original_edited_tiles-1.png-8.png::CompressedTexture2D::1382473955783903193::1698236449::1698236449::1::::<><>::
-blonde-wood.png::CompressedTexture2D::6672938174260995956::1698236449::1698236449::1::::<><>::
-cave_assets.png::CompressedTexture2D::7988977642504949172::1698236449::1698236449::1::::<><>::
-cozinheiro.png::CompressedTexture2D::9015899272681719148::1698236449::1698236449::1::::<><>::
-dark-wood.png::CompressedTexture2D::4749513491685063891::1698236449::1698236449::1::::<><>::
-fundo-amarelo.png::CompressedTexture2D::5290161043919918403::1698236449::1698236449::1::::<><>::
-fundo-azul.png::CompressedTexture2D::5132999897096005316::1698236449::1698236449::1::::<><>::
-fundo-verde.png::CompressedTexture2D::4804913233427612018::1698236449::1698236449::1::::<><>::
-fundo-vermelho.png::CompressedTexture2D::7123811913706023245::1698236449::1698236449::1::::<><>::
-fundo.jpg::CompressedTexture2D::6167156220926178356::1698236449::1698236449::1::::<><>::
-green-wood.png::CompressedTexture2D::788597799620312109::1698236449::1698236449::1::::<><>::
-porco-removebg-preview.png::CompressedTexture2D::6257952843939121311::1698236449::1698236449::1::::<><>::
-porco.png::CompressedTexture2D::6993783572988594491::1698236449::1698236449::1::::<><>::
-tiles-onemassivesheet-16colour-alpha.png::CompressedTexture2D::1933509925846558609::1698236449::1698236449::1::::<><>::
-tiles-onemassivesheet-alpha.png::CompressedTexture2D::308878665201333195::1698236449::1698236449::1::::<><>::
-tiles-plants-alpha.png::CompressedTexture2D::1767071834932235455::1698236449::1698236449::1::::<><>::
-tiles-rock-colour1-alpha.png::CompressedTexture2D::5751686235779494135::1698236449::1698236449::1::::<><>::
-tiles-rock-colour2-alpha.png::CompressedTexture2D::3073742923907583665::1698236449::1698236449::1::::<><>::
-tiles-rock-colour3-alpha.png::CompressedTexture2D::4007467441223818464::1698236449::1698236449::1::::<><>::
-tiles-tech-extra-steel-alpha.png::CompressedTexture2D::846393389106162010::1698236449::1698236449::1::::<><>::
-tiles-tech-gold-blue-alpha.png::CompressedTexture2D::9190098136976054130::1698236449::1698236449::1::::<><>::
-tiles-tech-gold-green-alpha.png::CompressedTexture2D::2738888712733330027::1698236449::1698236449::1::::<><>::
-tiles-tech-gold-orange-alpha.png::CompressedTexture2D::5697961284479000383::1698236449::1698236449::1::::<><>::
-tiles-tech-gold-steel-alpha.png::CompressedTexture2D::7269100828602757599::1698236449::1698236449::1::::<><>::
-tiles-tech-steel-blue-alpha.png::CompressedTexture2D::8682805133267090913::1698236449::1698236449::1::::<><>::
-tiles-tech-steel-gold-alpha.png::CompressedTexture2D::3871288721383536807::1698236449::1698236449::1::::<><>::
-tiles-tech-steel-orange-alpha.png::CompressedTexture2D::924315350179126851::1698236449::1698236449::1::::<><>::
-white-wood.png::CompressedTexture2D::3967537377587369097::1698236449::1698236449::1::::<><>::
-::res://imgs/fundos/::1698236449
-fundo-amarelo.png::CompressedTexture2D::4077740068878336162::1698236449::1698236449::1::::<><>::
-fundo-azul.png::CompressedTexture2D::346241589809998821::1698236449::1698236449::1::::<><>::
-fundo-verde.png::CompressedTexture2D::8231695659950348437::1698236449::1698236449::1::::<><>::
-fundo-vermelho.png::CompressedTexture2D::7865504521400863329::1698236449::1698236449::1::::<><>::
-::res://imgs/itens/::1698236449
-coracao.png::CompressedTexture2D::7039779513845391691::1698236449::1698236449::1::::<><>::
-maca.png::CompressedTexture2D::8097111351896679422::1698236449::1698236449::1::::<><>::
-::res://imgs/personagens/::1698236449
-porco_1.png::CompressedTexture2D::7077212686187186708::1698236449::1698236449::1::::<><>::
-porco_2.png::CompressedTexture2D::4149380078809124681::1698236449::1698236449::1::::<><>::
-::res://imgs/personagens/porco_files/::1698236449
-56301931_327414051306144_52576859333853184_n.jpg::CompressedTexture2D::8780097146620783915::1698236449::1698236449::1::::<><>::
-147468842_1039437913264283_5832421231004435471_n.jpg::CompressedTexture2D::2147434488992982801::1698236449::1698236449::1::::<><>::
-268818980_543108887156838_3759751271685389890_n.jpg::CompressedTexture2D::7015163864106506103::1698236449::1698236449::1::::<><>::
-295197275_1334485493748763_974789337128392022_n.jpg::CompressedTexture2D::765394420806878711::1698236449::1698236449::1::::<><>::
-310897334_1886895218313762_5200810071971747328_n.jpg::CompressedTexture2D::7442173587772148875::1698236449::1698236449::1::::<><>::
-311787153_861094861751105_307885845207106661_n.jpg::CompressedTexture2D::99440172025386214::1698236449::1698236449::1::::<><>::
-339443749_592887299222981_4218531990218000181_n.jpg::CompressedTexture2D::7163753296227906976::1698236449::1698236449::1::::<><>::
-341971181_1181521405892577_5625862859064401921_n.jpg::CompressedTexture2D::3128654537104075828::1698236449::1698236449::1::::<><>::
-342009888_949734703118702_2949231424667587034_n.jpg::CompressedTexture2D::5172103078301255124::1698236449::1698236449::1::::<><>::
-353920920_739994677924544_2550650244203182290_n.jpg::CompressedTexture2D::1307518918092861621::1698236449::1698236449::1::::<><>::
-362629477_2380386598809923_8560634905823263925_n.jpg::CompressedTexture2D::2476351370002702412::1698236449::1698236449::1::::<><>::
-367756227_1253553458684937_6191982442693634663_n.jpg::CompressedTexture2D::8463352118898909566::1698236449::1698236449::1::::<><>::
-370277736_284275274231167_1279355560585443861_n.jpg::CompressedTexture2D::3689231632250001572::1698236449::1698236449::1::::<><>::
-371028012_1021322222515844_6753996777985470612_n.jpg::CompressedTexture2D::8928073248492930784::1698236449::1698236449::1::::<><>::
-::res://posmenu/::1698236449
-new_theme.tres::Theme::8042384758921279910::1698236449::0::1::::<><>::
-::res://scriptglobal/::1698236449
-itens.gd::GDScript::-1::1698236449::0::1::::<>Node<>::
-::res://scripts/::1698236449
-aguacair.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-aplee.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-ColorRect.gd::GDScript::-1::1698236449::0::1::::<>ColorRect<>::
-enemy.gd::GDScript::-1::1698236449::0::1::::<>CharacterBody2D<>::
-game_over_screen.gd::GDScript::-1::1698236449::0::1::::<>Control<>::
-LabelMacas.gd::GDScript::-1::1698236449::0::1::::<>Label<>::
-LabelVida.gd::GDScript::-1::1698236449::0::1::::<>Label<>::
-life.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-pausa.gd::GDScript::-1::1698236449::0::1::::<>CanvasLayer<>::
-player.gd::GDScript::-1::1698236449::0::1::::<>CharacterBody2D<>::
-teleporte.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-teleporte_2.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-teleporte_3.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-transition.gd::GDScript::-1::1698236449::0::1::::<>CanvasLayer<>::
-trial_2d.gd::GDScript::-1::1698236449::0::1::::<>Line2D<>::
-::res://Scripts/::1698236449
-aguacair.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-aplee.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-ColorRect.gd::GDScript::-1::1698236449::0::1::::<>ColorRect<>::
-enemy.gd::GDScript::-1::1698236449::0::1::::<>CharacterBody2D<>::
-game_over_screen.gd::GDScript::-1::1698236449::0::1::::<>Control<>::
-LabelMacas.gd::GDScript::-1::1698236449::0::1::::<>Label<>::
-LabelVida.gd::GDScript::-1::1698236449::0::1::::<>Label<>::
-life.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-pausa.gd::GDScript::-1::1698236449::0::1::::<>CanvasLayer<>::
-player.gd::GDScript::-1::1698236449::0::1::::<>CharacterBody2D<>::
-teleporte.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-teleporte_2.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-teleporte_3.gd::GDScript::-1::1698236449::0::1::::<>Area2D<>::
-transition.gd::GDScript::-1::1698236449::0::1::::<>CanvasLayer<>::
-trial_2d.gd::GDScript::-1::1698236449::0::1::::<>Line2D<>::
-::res://Seasonal Tilesets/::1698236449
-LICENSE.txt::TextFile::-1::1698236449::0::1::::<><>::
-::res://Seasonal Tilesets/1 - Grassland/::1698236449
-Extra_plants (16 x 16).png::CompressedTexture2D::6855223651171499275::1698236449::1698236449::1::::<><>::
-Grassland_entities (16 x 16).png::CompressedTexture2D::4443100812090203481::1698236449::1698236449::1::::<><>::
-Terrain (16 x 16).png::CompressedTexture2D::7342345020667951251::1698236449::1698236449::1::::<><>::
-::res://Seasonal Tilesets/1 - Grassland/Background parts/::1698236449
-1 - Foreground_scenery.png::CompressedTexture2D::3901941510430955264::1698236449::1698236449::1::::<><>::
-2 - Hills.png::CompressedTexture2D::6942770853573475936::1698236449::1698236449::1::::<><>::
-3 - Cloud_cover_1.png::CompressedTexture2D::1933263642801634521::1698236449::1698236449::1::::<><>::
-4 - Cloud_cover_2.png::CompressedTexture2D::8803060313784791017::1698236449::1698236449::1::::<><>::
-5 - Sky_color.png::CompressedTexture2D::2705638759541770951::1698236449::1698236449::1::::<><>::
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D::3094928703899518476::1698236449::1698236449::1::::<><>::
-::res://Seasonal Tilesets/2 - Autumn Forest/::1698236449
-1 - Leaf_top.png::CompressedTexture2D::2986776449143394913::1698236449::1698236449::1::::<><>::
-Autumn_entities (16 x 16).png::CompressedTexture2D::9127644971787598474::1698236449::1698236449::1::::<><>::
-Terrain (16 x 16).png::CompressedTexture2D::3485952597586464585::1698236449::1698236449::1::::<><>::
-::res://Seasonal Tilesets/2 - Autumn Forest/Background parts/::1698236449
-1 - Leaf_top.png::CompressedTexture2D::4047526296126654859::1698236449::1698236449::1::::<><>::
-2 - Trees.png::CompressedTexture2D::7343569090795330894::1698236449::1698236449::1::::<><>::
-3 - Bottom_leaf_piles.png::CompressedTexture2D::5750980840895276467::1698236449::1698236449::1::::<><>::
-4 - Tree_row_BG_1.png::CompressedTexture2D::7939554724912739646::1698236449::1698236449::1::::<><>::
-5 - Tree_row_BG_2.png::CompressedTexture2D::1659955772880000184::1698236449::1698236449::1::::<><>::
-6 - Distant_trees.png::CompressedTexture2D::429327945826699718::1698236449::1698236449::1::::<><>::
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D::3149735611820303241::1698236449::1698236449::1::::<><>::
-::res://Seasonal Tilesets/3 - Tropics/::1698236449
-Terrain (16 x 16).png::CompressedTexture2D::5743043464719059788::1698236449::1698236449::1::::<><>::
-Tropics_entities (16 x 16).png::CompressedTexture2D::2134977642357076197::1698236449::1698236449::1::::<><>::
-::res://Seasonal Tilesets/3 - Tropics/Background parts/::1698236449
-1 - Waters_version_1.png::CompressedTexture2D::5141976015873647754::1698236449::1698236449::1::::<><>::
-2 - Waters_version_2.png::CompressedTexture2D::8450759206164860747::1698236449::1698236449::1::::<><>::
-3 - Floating_clouds.png::CompressedTexture2D::4411824690880640290::1698236449::1698236449::1::::<><>::
-4 - Background_clouds.png::CompressedTexture2D::2549170101238961871::1698236449::1698236449::1::::<><>::
-5 - Sky_color.png::CompressedTexture2D::6102527955885971411::1698236449::1698236449::1::::<><>::
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D::8735198244346564945::1698236449::1698236449::1::::<><>::
-::res://Seasonal Tilesets/4 - Winter World/::1698236449
-Terrain (16 x 16).png::CompressedTexture2D::6317035906981650228::1698236449::1698236449::1::::<><>::
-Winter_entities (16 x 16).png::CompressedTexture2D::5964640090716088129::1698236449::1698236449::1::::<><>::
-::res://Seasonal Tilesets/4 - Winter World/Background parts/::1698236449
-1 - Snowy_foreground_area.png::CompressedTexture2D::9012860808109906364::1698236449::1698236449::1::::<><>::
-2 - Smaller_mountains.png::CompressedTexture2D::7403011716642609297::1698236449::1698236449::1::::<><>::
-3 - Big_mountain_BG.png::CompressedTexture2D::2683428071771234695::1698236449::1698236449::1::::<><>::
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D::4787179509529002266::1698236449::1698236449::1::::<><>::
-::res://Seasonal Tilesets/5 - Misc. universal tiles/::1698236449
-Blocks (16 x 16).png::CompressedTexture2D::5569861335088093615::1698236449::1698236449::1::::<><>::
-Bubbling_Oil_frames (16 x 32).png::CompressedTexture2D::520938860984783640::1698236449::1698236449::1::::<><>::
-Flowers (16 x 16).png::CompressedTexture2D::5877339736096353644::1698236449::1698236449::1::::<><>::
-House (112 x 96).png::CompressedTexture2D::2874925432478401963::1698236449::1698236449::1::::<><>::
-Lava_frames (16 x 32).png::CompressedTexture2D::3587221665863110505::1698236449::1698236449::1::::<><>::
-level_03.tscn::PackedScene::7306608024451873854::1698236449::0::1::::<><>::uid://d1ypo0x7ad0ni::::res://Seasonal Tilesets/2 - Autumn Forest/Background parts/_Complete_static_BG_(288 x 208).png<>uid://bldt7w42u4d5a::::res://Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png<>uid://cxk0o7iyxjh61::::res://Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png<>uid://siodmrb4853a::::res://Seasonal Tilesets/5 - Misc. universal tiles/House (112 x 96).png<>uid://btdgyljvxiivg::::res://Seasonal Tilesets/3 - Tropics/Background parts/2 - Waters_version_2.png<>uid://ct2k6371vmp5d::::res://Seasonal Tilesets/5 - Misc. universal tiles/Lava_frames (16 x 32).png<>uid://bpbcjlojyp242::::res://Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png<>uid://dvtwu4u13i2p::::res://Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://b7fru12tht5xk::::res://Seasonal Tilesets/5 - Misc. universal tiles/Winter_entities (16 x 16).png<>uid://b2y0r61nijgdv::::res://Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://67sdt7lfefep::::res://Seasonal Tilesets/5 - Misc. universal tiles/Flowers (16 x 16).png<>uid://cspevlwlbckrb::::res://Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png<>uid://gybcoaotk2uf::::res://Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png<>uid://bfypqqld52vgo::::res://Seasonal Tilesets/2 - Autumn Forest/Background parts/2 - Trees.png
-Metal_Wire_fence (16 x 16).png::CompressedTexture2D::5892266003890074557::1698236449::1698236449::1::::<><>::
-Rock_shape (16 x 16).png::CompressedTexture2D::6970401631734396524::1698236449::1698236449::1::::<><>::
-Snack_machine_Bench_Trash_bin (16 x 16).png::CompressedTexture2D::6964572591338951258::1698236449::1698236449::1::::<><>::
-Water_frames (16 x 32).png::CompressedTexture2D::5803235823405738378::1698236449::1698236449::1::::<><>::
-Winter_entities (16 x 16).png::CompressedTexture2D::4643854881825796664::1698236449::1698236449::1::::<><>::
-::res://shaders/::1698236449
-transition.gdshader::Shader::-1::1698236449::0::1::::<><>::
-::res://sounds/::1698236449
-bg_music.wav::AudioStreamWAV::4229804920487284367::1698236449::1698236449::1::::<><>::
-break_sfx.wav::AudioStreamWAV::8005687515812064153::1698236449::1698236449::1::::<><>::
-collect_sfx.wav::AudioStreamWAV::371420863081301499::1698236449::1698236449::1::::<><>::
-jump_sfx.wav::AudioStreamWAV::9116749587969575356::1698236449::1698236449::1::::<><>::
-water_sfx.wav::AudioStreamWAV::6828408353573503694::1698236449::1698236449::1::::<><>::
-::res://temas_botao/::1698236449
-pausa.tres::Theme::790158407328826657::1698236449::0::1::::<><>::uid://dk38saqf4tlr7::::res://assets/fonts/m6x11.ttf
-::res://Tiles/::1698236449
-::res://Tiles/Tiles/::1698236449
-Autor_note.txt::TextFile::-1::1698236449::0::1::::<><>::
-download.jpeg::CompressedTexture2D::1320900793292408790::1698236449::1698236449::1::::<><>::
 fazenda.png::::-1::0::0::0::::<><>::
-::res://Tiles/Tiles/Assets/::1698236449
-Assets.png::CompressedTexture2D::1109015941737561442::1698236449::1698236449::1::::<><>::
-Background_1.png::CompressedTexture2D::4911012866625370675::1698236449::1698236449::1::::<><>::
-Background_2.png::CompressedTexture2D::5456925680652311707::1698236449::1698236449::1::::<><>::
-::res://Tiles/Tiles/Social/::1698236449
-Assets.png::CompressedTexture2D::5733222500926679596::1698236449::1698236449::1::::<><>::
-entrance.png::CompressedTexture2D::4020920119611020721::1698236449::1698236449::1::::<><>::
-Mine.png::CompressedTexture2D::2057676162566410287::1698236449::1698236449::1::::<><>::
-trees.png::CompressedTexture2D::2649480430025778258::1698236449::1698236449::1::::<><>::
+::res://Tiles/Tiles/Assets/::1698166602
+Assets.png::CompressedTexture2D::1109015941737561442::1698166569::1698166602::1::::<><>::
+Background_1.png::CompressedTexture2D::4911012866625370675::1698166569::1698166602::1::::<><>::
+Background_2.png::CompressedTexture2D::5456925680652311707::1698166569::1698166602::1::::<><>::
+::res://Tiles/Tiles/Social/::1698166603
+Assets.png::CompressedTexture2D::5733222500926679596::1698166569::1698166603::1::::<><>::
+entrance.png::CompressedTexture2D::4020920119611020721::1698166569::1698166602::1::::<><>::
+Mine.png::CompressedTexture2D::2057676162566410287::1698166570::1698166602::1::::<><>::
+trees.png::CompressedTexture2D::2649480430025778258::1698166570::1698166602::1::::<><>::

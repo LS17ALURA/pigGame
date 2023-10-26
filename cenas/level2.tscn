@@ -13,7 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://cp0a6rlrlfrou" path="res://Seasonal Tilesets/5 - Misc. universal tiles/Flowers (16 x 16).png" id="7_4oyl0"]
 [ext_resource type="Texture2D" uid="uid://d3bq8j4k6yan7" path="res://Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png" id="7_giac2"]
 [ext_resource type="Texture2D" uid="uid://s24bp2gxtlmk" path="res://Tiles/Tiles/download.jpeg" id="7_t7wd0"]
-[ext_resource type="Texture2D" uid="uid://coxepf0n2l4fe" path="res://assets/Water_frames (16 x 32).png" id="8_fainl"]
+[ext_resource type="Texture2D" uid="uid://coxepf0n2l4fe" path="res://Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png" id="8_fainl"]
 [ext_resource type="Texture2D" uid="uid://dcvjrltxpf42m" path="res://Seasonal Tilesets/2 - Autumn Forest/Background parts/2 - Trees.png" id="9_u4qmy"]
 [ext_resource type="PackedScene" uid="uid://l1ns8lrpmc7o" path="res://cenas/player.tscn" id="16_fpqge"]
 [ext_resource type="PackedScene" uid="uid://bf0uk1og68sje" path="res://cenas/aplee.tscn" id="17_85yms"]
