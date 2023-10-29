@@ -5,16 +5,13 @@ const SPEED = 200.0
 const JUMP_VELOCITY = -400.0
 var can_jump := true
 @onready var coyote_timer = $coyote_timer as Timer
-
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-#var current_trail : Class
+@onready var remote_transform:=$remote as RemoteTransform2D
 
-func show_trail () -> void:
-	#current_trail = Class.create_trail()
-	#add_child(current_trail)
-	pass
+# var player_life=$"/root/Itens".vida
+var knockback_vector:=Vector2.ZERO
 	
 func _physics_process(delta):
 	if(self.global_position.x <= 2):
@@ -59,9 +56,32 @@ func _physics_process(delta):
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+		
+	if knockback_vector!=Vector2.ZERO:
+		velocity=knockback_vector
 
 	move_and_slide()
 
 
 func _on_coyote_timer_timeout():
 	can_jump = false
+
+
+func _on_hurtbox_body_entered(body):
+#	if body.is_in_group("enemies"):
+#		queue_free()
+	if $"/root/Itens".vida < 0:
+		queue_free()
+	else:
+		take_damage(Vector2(200,-200))
+		
+func follow_camera(camera):
+	var camera_path = camera.get_path()
+	remote_transform.remote_path=camera_path
+	
+func take_damage(knockback_force:=Vector2.ZERO, duration:=0.25):
+	$"/root/Itens".vida-=10
+	if knockback_force!=Vector2.ZERO:
+		knockback_vector=knockback_force
+		var knockback_tween:=get_tree().create_tween()
+		knockback_tween.tween_property(self, "knockback_vector", Vector2.ZERO, duration)
