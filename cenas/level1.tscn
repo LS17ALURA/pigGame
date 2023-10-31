@@ -24781,11 +24781,3 @@ position = Vector2(1850, 675)
 position = Vector2(1970, 675)
 
 [node name="Inimigos" type="Node2D" parent="enemy4"]
-
-[node name="camera" type="Camera2D" parent="."]
-zoom = Vector2(1.7, 1.7)
-limit_left = 0
-limit_top = 0
-limit_right = 2496
-limit_bottom = 720
-editor_draw_limits = true

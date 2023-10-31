@@ -4,9 +4,8 @@
 [ext_resource type="Script" path="res://scripts/enemy.gd" id="1_o4x5s"]
 [ext_resource type="PackedScene" uid="uid://egp7rqclodbh" path="res://cenas/hitbox.tscn" id="3_hcixh"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sf2sn"]
-radius = 29.9199
-height = 69.8132
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6lyc8"]
+size = Vector2(64.8266, 70)
 
 [sub_resource type="Animation" id="Animation_iigdt"]
 length = 0.001
@@ -146,9 +145,9 @@ collision_mask = 2
 script = ExtResource("1_o4x5s")
 
 [node name="colision" type="CollisionShape2D" parent="."]
-position = Vector2(4, -11)
+position = Vector2(3.49999, -11)
 scale = Vector2(0.200535, 0.2)
-shape = SubResource("CapsuleShape2D_sf2sn")
+shape = SubResource("RectangleShape2D_6lyc8")
 
 [node name="texture" type="Sprite2D" parent="."]
 position = Vector2(2, -13)

@@ -7,8 +7,9 @@ var can_jump := true
 @onready var coyote_timer = $coyote_timer as Timer
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-
+@onready var animation:=$animacoes as AnimatedSprite2D
 @onready var remote_transform:=$remote as RemoteTransform2D
+
 
 # var player_life=$"/root/Itens".vida
 var knockback_vector:=Vector2.ZERO
@@ -23,20 +24,24 @@ func _physics_process(delta):
 	if(self.global_position.y <= 2):
 		self.global_position.y+= 10
 		
-	if Input.is_action_just_pressed("ui_left"):
+	if Input.is_action_pressed("ui_left"):
+		
 		if $"/root/Itens".esquerda == 1:
 			$"/root/Itens".esquerda = 0
 			$"/root/Itens".direita = 1
 			self.scale.x *= -1
-	if Input.is_action_just_pressed("ui_right"):
+
+	if Input.is_action_pressed("ui_right"):
 		if $"/root/Itens".direita == 1:
 			$"/root/Itens".direita = 0
 			$"/root/Itens".esquerda = 1
 			self.scale.x *= -1
-	
+
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y += gravity * delta
+		
+
 
 	# Handle Jump.
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor() and can_jump:
@@ -68,20 +73,37 @@ func _on_coyote_timer_timeout():
 
 
 func _on_hurtbox_body_entered(body):
-#	if body.is_in_group("enemies"):
-#		queue_free()
-	if $"/root/Itens".vida < 0:
-		queue_free()
+	# Obtém a posição global do inimigo que causou a colisão.
+	var enemy_global_position = body.global_position
+
+	# Compara as coordenadas X para determinar a direção do inimigo em relação ao jogador.
+	if enemy_global_position.x > global_position.x:
+		# Inimigo está à direita, aplique o valor do vetor de knockback para a direita.
+		take_damage(Vector2(-200, -200))
 	else:
-		take_damage(Vector2(200,-200))
+		# Inimigo está à esquerda, aplique o valor do vetor de knockback para a esquerda.
+		take_damage(Vector2(200, -200))
 		
-func follow_camera(camera):
-	var camera_path = camera.get_path()
-	remote_transform.remote_path=camera_path
+#func follow_camera(camera):
+#	var camera_path = camera.get_path()
+#	remote_transform.remote_path=camera_path
 	
 func take_damage(knockback_force:=Vector2.ZERO, duration:=0.25):
 	$"/root/Itens".vida-=10
 	if knockback_force!=Vector2.ZERO:
 		knockback_vector=knockback_force
 		var knockback_tween:=get_tree().create_tween()
-		knockback_tween.tween_property(self, "knockback_vector", Vector2.ZERO, duration)
+		knockback_tween.parallel().tween_property(self, "knockback_vector", Vector2.ZERO, duration)
+		animation.modulate=Color(0,0,1,1)
+		knockback_tween.parallel().tween_property(animation,"modulate", Color(1,1,1,1),duration)
+
+#func take_damage(knockback_force := Vector2.ZERO, duration := 0.25):
+#	$"/root/Itens".vida -= 10
+#	if knockback_force != Vector2.ZERO:
+#		var direction = 1 if knockback_force.x > 0 else -1
+#		knockback_vector = Vector2(200 * -direction, knockback_force.y)
+#		var knockback_tween = get_tree().create_tween()
+#		knockback_tween.tween_property(self, "knockback_vector", Vector2.ZERO, duration)
+
+
+

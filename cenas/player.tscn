@@ -51,13 +51,12 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_khq36"]
-size = Vector2(15, 15)
+size = Vector2(17, 15)
 
 [node name="player" type="CharacterBody2D"]
-position = Vector2(595, 351)
+position = Vector2(596, 351)
 collision_mask = 22
 script = ExtResource("1_c3skf")
-metadata/_edit_group_ = true
 
 [node name="collision" type="CollisionShape2D" parent="."]
 position = Vector2(8.5, -1.5)
@@ -73,6 +72,7 @@ autoplay = "Idle"
 [node name="animator" type="AnimationPlayer" parent="."]
 
 [node name="trial_2D" parent="." instance=ExtResource("4_ccjtc")]
+points = PackedVector2Array(615, 351)
 
 [node name="jump_sfx" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_exwoa")
@@ -87,21 +87,19 @@ collision_layer = 0
 collision_mask = 4
 
 [node name="collision" type="CollisionShape2D" parent="hurtbox"]
-position = Vector2(9.5, -3.5)
+position = Vector2(8.5, -3.5)
 shape = SubResource("RectangleShape2D_khq36")
 debug_color = Color(0.847059, 0.341176, 0.419608, 0.419608)
 
 [node name="remote" type="RemoteTransform2D" parent="."]
 
-[node name="ray_right" type="RayCast2D" parent="."]
-position = Vector2(8, 0)
-target_position = Vector2(4, 0)
-collision_mask = 4
-
-[node name="ray_left" type="RayCast2D" parent="."]
-position = Vector2(-8, 0)
-target_position = Vector2(-4, 0)
-collision_mask = 4
+[node name="camera" type="Camera2D" parent="."]
+zoom = Vector2(1.7, 1.7)
+limit_left = 0
+limit_top = 0
+limit_right = 2496
+limit_bottom = 720
+editor_draw_limits = true
 
 [connection signal="timeout" from="coyote_timer" to="." method="_on_coyote_timer_timeout"]
 [connection signal="body_entered" from="hurtbox" to="." method="_on_hurtbox_body_entered"]
