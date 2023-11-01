@@ -88,12 +88,15 @@ func _on_hurtbox_body_entered(body):
 #	remote_transform.remote_path=camera_path
 	
 func take_damage(knockback_force:=Vector2.ZERO, duration:=0.25):
-	$"/root/Itens".vida-=10
+	if $"/root/Itens".vida < 10:
+		$"/root/Itens".vida=0
+	else:
+		$"/root/Itens".vida-=10
 	if knockback_force!=Vector2.ZERO:
 		knockback_vector=knockback_force
 		var knockback_tween:=get_tree().create_tween()
 		knockback_tween.parallel().tween_property(self, "knockback_vector", Vector2.ZERO, duration)
 		animation.modulate=Color(0,0,1,1)
 		knockback_tween.parallel().tween_property(animation,"modulate", Color(1,1,1,1),duration)
-
+	
 
