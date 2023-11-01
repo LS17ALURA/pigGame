@@ -11,7 +11,6 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 @onready var remote_transform:=$remote as RemoteTransform2D
 
 
-# var player_life=$"/root/Itens".vida
 var knockback_vector:=Vector2.ZERO
 	
 func _physics_process(delta):
@@ -96,14 +95,5 @@ func take_damage(knockback_force:=Vector2.ZERO, duration:=0.25):
 		knockback_tween.parallel().tween_property(self, "knockback_vector", Vector2.ZERO, duration)
 		animation.modulate=Color(0,0,1,1)
 		knockback_tween.parallel().tween_property(animation,"modulate", Color(1,1,1,1),duration)
-
-#func take_damage(knockback_force := Vector2.ZERO, duration := 0.25):
-#	$"/root/Itens".vida -= 10
-#	if knockback_force != Vector2.ZERO:
-#		var direction = 1 if knockback_force.x > 0 else -1
-#		knockback_vector = Vector2(200 * -direction, knockback_force.y)
-#		var knockback_tween = get_tree().create_tween()
-#		knockback_tween.tween_property(self, "knockback_vector", Vector2.ZERO, duration)
-
 
 

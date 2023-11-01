@@ -13,7 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://cwmecvfky3ytv" path="res://assets/maca.png" id="10_i2c55"]
 [ext_resource type="Texture2D" uid="uid://bc6ka6klwe7yd" path="res://assets/8bit-water-flat.png" id="11_20io8"]
 [ext_resource type="Texture2D" uid="uid://bpgudsjm7f782" path="res://assets/8bit-water-currenty.png" id="12_oa3li"]
-[ext_resource type="Texture2D" uid="uid://coxepf0n2l4fe" path="res://assets/Water_frames (16 x 32).png" id="13_hhc8n"]
+[ext_resource type="Texture2D" uid="uid://coxepf0n2l4fe" path="res://Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png" id="13_hhc8n"]
 [ext_resource type="Texture2D" uid="uid://bvcfmxogebywr" path="res://assets/2 houses 1 skull/big house.png" id="14_jmpsp"]
 [ext_resource type="Texture2D" uid="uid://y8hukplx4xwl" path="res://assets/caverna.png" id="15_a6nvl"]
 [ext_resource type="Texture2D" uid="uid://c4kbwym6bxyfp" path="res://assets/stone.jpg" id="16_vv5eh"]
@@ -27,7 +27,7 @@
 [ext_resource type="PackedScene" uid="uid://dlkd2ayxcqcpr" path="res://cenas/pausa.tscn" id="25_ivndq"]
 [ext_resource type="AudioStream" uid="uid://b1i7jfbcfcfet" path="res://sounds/bg_music.wav" id="26_3ytsk"]
 [ext_resource type="PackedScene" uid="uid://ddnqigm0h8dic" path="res://cenas/enemy.tscn" id="27_sri1m"]
-[ext_resource type="PackedScene" uid="uid://ct6ms5l2cb1mc" path="res://cenas/moving_plataform_level_1.tscn" id="28_vog20"]
+[ext_resource type="PackedScene" path="res://cenas/moving_plataform_level_1.tscn" id="28_vog20"]
 [ext_resource type="Script" path="res://scripts/moving_plataform_2.gd" id="29_113py"]
 [ext_resource type="Script" path="res://scripts/moving_plataform_3.gd" id="30_2cqbq"]
 
