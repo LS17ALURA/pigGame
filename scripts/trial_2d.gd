@@ -3,6 +3,9 @@ extends Line2D
 var lenght = 50
 var point = Vector2()
 
+func _ready():
+	remove_point(0)
+ 
 func _process(delta):
 	global_position = Vector2(0,0)
 	global_rotation = 0
