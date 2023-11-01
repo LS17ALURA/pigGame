@@ -27,7 +27,7 @@
 [ext_resource type="PackedScene" uid="uid://dlkd2ayxcqcpr" path="res://cenas/pausa.tscn" id="25_ivndq"]
 [ext_resource type="AudioStream" uid="uid://b1i7jfbcfcfet" path="res://sounds/bg_music.wav" id="26_3ytsk"]
 [ext_resource type="PackedScene" uid="uid://ddnqigm0h8dic" path="res://cenas/enemy.tscn" id="27_sri1m"]
-[ext_resource type="PackedScene" path="res://cenas/moving_plataform_level_1.tscn" id="28_vog20"]
+[ext_resource type="PackedScene" uid="uid://ct6ms5l2cb1mc" path="res://cenas/moving_plataform_level_1.tscn" id="28_vog20"]
 [ext_resource type="Script" path="res://scripts/moving_plataform_2.gd" id="29_113py"]
 [ext_resource type="Script" path="res://scripts/moving_plataform_3.gd" id="30_2cqbq"]
 
@@ -16388,6 +16388,7 @@ position = Vector2(1634, 579)
 [node name="moving_plataform2" parent="." instance=ExtResource("28_vog20")]
 position = Vector2(1952, 486)
 script = ExtResource("29_113py")
+move_speed = 15.0
 distance = 80
 
 [node name="moving_plataform3" parent="." instance=ExtResource("28_vog20")]
