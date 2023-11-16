@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://l1ns8lrpmc7o"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_c3skf"]
-[ext_resource type="Texture2D" uid="uid://cq1h5po063red" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview.png" id="2_gojui"]
+[ext_resource type="Texture2D" uid="uid://s8fqp3vfbafo" path="res://Imagens/Porco Anima/novo_porco-removebg-preview.png" id="2_tf2d2"]
 [ext_resource type="Texture2D" uid="uid://vvk74vgsgkg2" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png" id="3_hifm3"]
 [ext_resource type="PackedScene" uid="uid://48axla5ej2ln" path="res://cenas/trial_2d.tscn" id="4_ccjtc"]
 [ext_resource type="AudioStream" uid="uid://d25hsfaect885" path="res://sounds/jump_sfx.wav" id="5_exwoa"]
@@ -9,13 +9,13 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_00sg4"]
 size = Vector2(15, 19)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_w5ess"]
-atlas = ExtResource("2_gojui")
-region = Rect2(346, 0, 346, 361)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_dje3j"]
-atlas = ExtResource("2_gojui")
+[sub_resource type="AtlasTexture" id="AtlasTexture_firtw"]
+atlas = ExtResource("2_tf2d2")
 region = Rect2(0, 0, 346, 361)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kbmwg"]
+atlas = ExtResource("2_tf2d2")
+region = Rect2(346, 0, 346, 361)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fat7h"]
 atlas = ExtResource("3_hifm3")
@@ -29,10 +29,10 @@ region = Rect2(346, 0, 346, 361)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_w5ess")
+"texture": SubResource("AtlasTexture_firtw")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_dje3j")
+"texture": SubResource("AtlasTexture_kbmwg")
 }],
 "loop": true,
 "name": &"Idle",
@@ -63,10 +63,10 @@ position = Vector2(8.5, -1.5)
 shape = SubResource("RectangleShape2D_00sg4")
 
 [node name="animacoes" type="AnimatedSprite2D" parent="."]
-position = Vector2(9, -2)
-scale = Vector2(0.0693642, 0.066482)
+position = Vector2(9, -3)
+scale = Vector2(0.0751445, 0.0720221)
 sprite_frames = SubResource("SpriteFrames_bwa68")
-animation = &"esquerda"
+animation = &"Idle"
 autoplay = "Idle"
 
 [node name="animator" type="AnimationPlayer" parent="."]
