@@ -1,5 +1,5 @@
-res://cenas/player.tscn
 res://cenas/enemy.tscn
+res://cenas/player.tscn
 res://cenas/hitbox.tscn
 res://cenas/game_over_screen.tscn
 res://cenas/aguacair.tscn
@@ -10,3 +10,4 @@ res://cenas/trial_2d.tscn
 res://cenas/teleporte.tscn
 res://cenas/level3.tscn
 res://cenas/life.tscn
+res://scripts/aguacair.gd

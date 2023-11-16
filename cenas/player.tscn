@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://l1ns8lrpmc7o"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_c3skf"]
-[ext_resource type="Texture2D" uid="uid://s8fqp3vfbafo" path="res://Imagens/Porco Anima/novo_porco-removebg-preview.png" id="2_tf2d2"]
+[ext_resource type="Texture2D" uid="uid://bcga6m5oqxl2l" path="res://Imagens/Porco Anima/camisaporco.png" id="2_rwt7i"]
 [ext_resource type="Texture2D" uid="uid://vvk74vgsgkg2" path="res://Imagens/Porco Anima/porcoooooooooooooooooooooo11-removebg-preview - Copia.png" id="3_hifm3"]
 [ext_resource type="PackedScene" uid="uid://48axla5ej2ln" path="res://cenas/trial_2d.tscn" id="4_ccjtc"]
 [ext_resource type="AudioStream" uid="uid://d25hsfaect885" path="res://sounds/jump_sfx.wav" id="5_exwoa"]
@@ -9,12 +9,12 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_00sg4"]
 size = Vector2(15, 19)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_firtw"]
-atlas = ExtResource("2_tf2d2")
+[sub_resource type="AtlasTexture" id="AtlasTexture_c65bp"]
+atlas = ExtResource("2_rwt7i")
 region = Rect2(0, 0, 346, 361)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_kbmwg"]
-atlas = ExtResource("2_tf2d2")
+[sub_resource type="AtlasTexture" id="AtlasTexture_47o0p"]
+atlas = ExtResource("2_rwt7i")
 region = Rect2(346, 0, 346, 361)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fat7h"]
@@ -29,10 +29,10 @@ region = Rect2(346, 0, 346, 361)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_firtw")
+"texture": SubResource("AtlasTexture_c65bp")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_kbmwg")
+"texture": SubResource("AtlasTexture_47o0p")
 }],
 "loop": true,
 "name": &"Idle",
